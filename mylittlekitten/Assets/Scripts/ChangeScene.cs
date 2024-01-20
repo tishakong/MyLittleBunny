@@ -11,6 +11,10 @@ public class ChangeScene : MonoBehaviour
             case "Start_button":
                 SceneManager.LoadScene("SelectCharacter");
                 break;
+
+            case "Select_button":
+                SceneManager.LoadScene("MainMap");
+                break;
         }
 
     }
