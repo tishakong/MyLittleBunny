@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SelectCharacter : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class SelectCharacter : MonoBehaviour
     Animator animator;
     SpriteRenderer spriteRenderer;
     public SelectCharacter[] chars;
+    public Button Select_button;
+
 
     void Start()
     {
@@ -18,6 +21,7 @@ public class SelectCharacter : MonoBehaviour
     }
 
     private void OnMouseUpAsButton()
+
     {
         DataManager.Instance.currentCharacter = character;
         OnSelect();
@@ -41,7 +45,7 @@ public class SelectCharacter : MonoBehaviour
     {
         animator.SetBool("Walking", true);
         spriteRenderer.transform.localScale = new Vector3(2.5f,2.5f,1f);
-     
+        Select_button.gameObject.SetActive(true);
     }
 
 } 
