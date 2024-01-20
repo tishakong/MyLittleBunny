@@ -5,7 +5,7 @@ using UnityEngine;
 
 public enum Character
 {
-    WhiteRabbit, BlackRabbit
+    WhiteRabbit, BlackRabbit, BrownRabbit
 }
 
 public class DataManager : MonoBehaviour
