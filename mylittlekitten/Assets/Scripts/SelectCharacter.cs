@@ -21,6 +21,7 @@ public class SelectCharacter : MonoBehaviour
     }
 
     private void OnMouseUpAsButton()
+
     {
         DataManager.Instance.currentCharacter = character;
         OnSelect();
