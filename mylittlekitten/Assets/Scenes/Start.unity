@@ -421,7 +421,7 @@ Animator:
   m_GameObject: {fileID: 235525647}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ae5a3c641fac14349a81e821404bbb99, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9d10b2346b70c5744841248b64f46cc6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -527,7 +527,7 @@ Animator:
   m_GameObject: {fileID: 367303064}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c0d1f509cd37d9f41bdd99dc043f99e3, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6cbf37a9ff451224b92eedd4d2364ed5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1151,7 +1151,7 @@ GameObject:
   - component: {fileID: 1881372384}
   - component: {fileID: 1881372387}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Start_button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1166,15 +1166,15 @@ RectTransform:
   m_GameObject: {fileID: 1881372382}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.2, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 69074787}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 65, y: -176}
-  m_SizeDelta: {x: 160, y: 70}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 245, y: 127}
+  m_SizeDelta: {x: 1300, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1881372384
 MonoBehaviour:
@@ -1220,9 +1220,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 0c68b9522ca2af242b5164f771ef78e2, type: 3}
-        m_TargetAssemblyTypeName: StartScript, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1881372387}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: ChangeScenefunc
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1310,7 +1310,7 @@ Animator:
   m_GameObject: {fileID: 1983231963}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bb0e9bc3e71968a478352244db9938ec, type: 2}
+  m_Controller: {fileID: 9100000, guid: 832d35b6344604a42ac431ee424fd50a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
