@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1818951884973415383}
   - component: {fileID: -7446359132981283393}
   - component: {fileID: -3243659902825457426}
+  - component: {fileID: 9144650552699988710}
   m_Layer: 0
   m_Name: BrownRabbit
   m_TagString: Untagged
@@ -233,3 +234,15 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0047336817, y: -0.51064813}
   m_Size: {x: 0.5929048, y: 0.5929048}
   m_Direction: 0
+--- !u!114 &9144650552699988710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6083915006487832443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7770680ddb84cfb46b73d5693ffb84e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

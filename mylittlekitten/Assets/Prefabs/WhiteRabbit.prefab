@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2068149906795414725}
   - component: {fileID: 7235008040997937186}
   - component: {fileID: 8337962687519321677}
+  - component: {fileID: 5676410118953596672}
   m_Layer: 0
   m_Name: WhiteRabbit
   m_TagString: Untagged
@@ -233,3 +234,15 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0075974464, y: -0.49182582}
   m_Size: {x: 0.6049528, y: 0.61634827}
   m_Direction: 0
+--- !u!114 &5676410118953596672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701674944541691363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7770680ddb84cfb46b73d5693ffb84e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

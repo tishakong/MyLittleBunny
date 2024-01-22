@@ -10,14 +10,23 @@ EditorBuildSettings:
     guid: 6ddd0a730a4346b4f8655e20a6d3baa9
   - enabled: 1
     path: Assets/Scenes/SelectCharacter.unity
-    guid: 85be82bd272527e4c8b6382e232dff0c
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Play.unity
-    guid: 9cd0e84e017895840acec7bb652f77c9
+    guid: c325101ff8472e44d9470106b6da98cd
   - enabled: 1
     path: Assets/Scenes/MainMap.unity
     guid: fea3d39483aa5a24cbf259970247d7d4
+  - enabled: 1
+    path: Assets/Scenes/BakeryShop.unity
+    guid: 0f5f8fd5bd78cae47a29368f778be285
+  - enabled: 1
+    path: Assets/Scenes/cafe_black_ver.unity
+    guid: 2f3ae1105b4fb465ebdb9ecb49ada417
+  - enabled: 1
+    path: Assets/Scenes/cafe_white_ver.unity
+    guid: 795f3d1081edf48b9891b993553044b2
+  - enabled: 1
+    path: Assets/Scenes/Christmas.unity
+    guid: cfa0ea9f15285ff468d7b2a7d72932c5
+  - enabled: 1
+    path: Assets/Scenes/Garden.unity
+    guid: 8d7742d41512563418c97df54344f0d3
   m_configObjects: {}
