@@ -28,11 +28,6 @@ public class CharacterMove : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    private void Awake()
-    {
-        
-    }
-
     private void Update()
     {
         RaycastHit2D sorthit;
