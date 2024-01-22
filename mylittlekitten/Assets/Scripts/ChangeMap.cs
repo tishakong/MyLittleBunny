@@ -9,7 +9,6 @@ public class ChangeMap : MonoBehaviour
     {
         if (other.gameObject.CompareTag("ToInside"))
         {
-            print("ToInside еб╠в╣й");
             if (other.name == "BakeryPoint")
             {
                 SceneManager.LoadScene("BakeryShop");
@@ -31,5 +30,14 @@ public class ChangeMap : MonoBehaviour
                 SceneManager.LoadScene("cafe_black_ver");
             }
         }
+
+        if (other.gameObject.CompareTag("ToOutside"))
+        {
+            print("ToOutside еб╠в╣й");
+            SceneManager.LoadScene("MainMap");
+        }
+
     }
+
+
 }
