@@ -11,9 +11,10 @@ public class Spawn : MonoBehaviour
     void Start()
     {
         player = Instantiate(charPrefabs[(int)DataManager.Instance.currentCharacter]);
-        player.transform.position = transform.position;
+        player.transform.position = new Vector3 (transform.position.x, transform.position.y,0);
 
         GameObject mainCamera = Camera.main.gameObject;
         mainCamera.transform.parent = player.transform;
+        mainCamera.transform.position = new Vector3 (transform.position.x, transform.position.y,-10);
     }
 }
