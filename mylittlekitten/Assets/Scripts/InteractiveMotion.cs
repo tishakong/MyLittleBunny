@@ -15,10 +15,12 @@ public class InteractiveMotion : MonoBehaviour
     public bool actionable;
     public GameObject hitObject;
     public GameObject wateringMotion;
+    AudioManager audioManager;
 
     void Start()
     {
         capsuleCollider = GetComponent<CapsuleCollider2D>();
+        audioManager = FindObjectOfType<AudioManager>();
     }
 
     private void Update()
@@ -56,6 +58,7 @@ public class InteractiveMotion : MonoBehaviour
 
         if (actionable && Input.GetKeyDown(KeyCode.Z))
         {
+            audioManager.PlaySound("Watering");
             Watering(hitObject);
             StartCoroutine(WateringMotion());
         }
