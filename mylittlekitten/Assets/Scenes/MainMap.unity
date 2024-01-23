@@ -90666,7 +90666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 690216171}
   - component: {fileID: 690216170}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99723,9 +99723,9 @@ GameObject:
   - component: {fileID: 1894375052}
   - component: {fileID: 1894375051}
   - component: {fileID: 1894375053}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 16
-  m_TagString: Fishing
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100605,8 +100605,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10f44d1460e444676b6cc7ca728e7923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pressCount: 0
-  fishingProgress: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  raycastLength: 0
+  fishingable: 0
+  hitObject: {fileID: 0}
+  fishingMotion: {fileID: 0}
+  fishCount: 0
+  progressText: {fileID: 0}
 --- !u!1001 &1959560761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -100691,7 +100698,6 @@ GameObject:
   - component: {fileID: 1969775983}
   - component: {fileID: 1969775986}
   - component: {fileID: 1969775985}
-  - component: {fileID: 1969775984}
   m_Layer: 5
   m_Name: FishingProgress
   m_TagString: Untagged
@@ -100718,20 +100724,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.8765259, y: -76.84711}
   m_SizeDelta: {x: -564, y: -380}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1969775984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1969775982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10f44d1460e444676b6cc7ca728e7923, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pressCount: 0
-  fishingProgress: {fileID: 0}
 --- !u!114 &1969775985
 MonoBehaviour:
   m_ObjectHideFlags: 0
