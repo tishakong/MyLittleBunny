@@ -7,7 +7,7 @@ public class CharacterMove : MonoBehaviour
 {
     //�ȱ� ���� ����
     public float speed;
-    private Vector3 vector;
+    public Vector3 Movevector;
     public float runSpeed;
     private float applyRunSpeed;
 
@@ -33,6 +33,7 @@ public class CharacterMove : MonoBehaviour
 
     private void Update()
     {
+        //sorting layer ��ȯ�� raycast
         RaycastHit2D sorthit;
 
         Vector2 startDown = capsuleCollider.bounds.center;
@@ -46,7 +47,6 @@ public class CharacterMove : MonoBehaviour
         if (sorthit.collider != null)
         {
             GameObject hitObject = sorthit.collider.gameObject;
-            print("�Ʒ��� ���� ����: " + hitObject.name);
             SpriteRenderer hitSpriteRenderer = hitObject.GetComponent<SpriteRenderer>();
             if (hitSpriteRenderer != null)
             {
@@ -62,7 +62,7 @@ public class CharacterMove : MonoBehaviour
 
 
 
-
+        // ĳ���� �����¿� �̵�, ������Ʈ ���� �ʴ� �뵵 raycast
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
 
@@ -75,13 +75,12 @@ public class CharacterMove : MonoBehaviour
             else
                 applyRunSpeed = 0;
 
-            vector.Set(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), transform.position.z);
+            Movevector.Set(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), transform.position.z);
 
-            if (vector.x !=0)
-                vector.y = 0;
+            if (Movevector.x !=0)
+                Movevector.y = 0;
 
-            //���� �̵� �� flipx ����
-            if (vector.x < 0)
+            if (Movevector.x < 0)
             {
                 spriteRenderer.flipX = true;
             }
@@ -91,8 +90,8 @@ public class CharacterMove : MonoBehaviour
             }
 
 
-            animator.SetFloat("DirX", vector.x);
-            animator.SetFloat("DirY", vector.y);
+            animator.SetFloat("DirX", Movevector.x);
+            animator.SetFloat("DirY", Movevector.y);
 
             RaycastHit2D hit;
 
@@ -110,7 +109,6 @@ public class CharacterMove : MonoBehaviour
             if (hit.transform != null)
             {
                 GameObject hitObject = hit.collider.gameObject;
-                print("���� ����: " + hitObject.name);
                 animator.SetBool("Walking", false);
             }
             else
@@ -118,13 +116,13 @@ public class CharacterMove : MonoBehaviour
                 animator.SetBool("Walking", true);
 
 
-                if (vector.x != 0)
+                if (Movevector.x != 0)
                 {
-                    transform.Translate(vector.x * (speed + applyRunSpeed), 0, 0);
+                    transform.Translate(Movevector.x * (speed + applyRunSpeed), 0, 0);
                 }
-                else if (vector.y != 0)
+                else if (Movevector.y != 0)
                 {
-                    transform.Translate(0, vector.y * (speed + applyRunSpeed), 0);
+                    transform.Translate(0, Movevector.y * (speed + applyRunSpeed), 0);
                 }
             }
         }
