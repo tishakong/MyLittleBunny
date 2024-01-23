@@ -11,16 +11,38 @@ public class  Fishing : MonoBehaviour
     public LayerMask layerMask;
     public float raycastLength;
     public bool fishingable;
+    public bool fishingstart;
     public GameObject hitObject;
     public GameObject fishingMotion;
     public int fishCount;
     public TextMeshProUGUI progressText;
+    public int clickCount;
 
     void Start()
     {
         capsuleCollider = GetComponent<CapsuleCollider2D>();
-        progressText = GetComponent<TextMeshProUGUI>();
+        // GameObject.Find로 GameObject 찾기
+        GameObject fishingProgressObject = GameObject.Find("FishingProgress");
+
+        // GameObject가 null이 아니고 TextMeshProUGUI 컴포넌트를 가지고 있다면 할당
+        if (fishingProgressObject != null)
+        {
+            progressText = fishingProgressObject.GetComponent<TextMeshProUGUI>();
+
+            // TextMeshProUGUI 컴포넌트가 null이면 로그 출력
+            if (progressText == null)
+            {
+                Debug.LogError("TextMeshProUGUI component not found on FishingProgress GameObject.");
+            }
+        }
+        else
+        {
+            // GameObject가 null이면 로그 출력
+            Debug.LogError("FishingProgress GameObject not found in the scene.");
+        }
         fishCount = 0;
+
+        progressText.gameObject.SetActive(false);
     }
 
     private void Update()
@@ -53,24 +75,20 @@ public class  Fishing : MonoBehaviour
             else
             {
                 hitObject = null;
+                progressText.gameObject.SetActive(false);
+                fishingstart = false;
             }
         }
 
         if (fishingable && Input.GetKeyDown(KeyCode.Z))
         {
-            FishingMotion(hitObject);
-
-            progressText.gameObject.SetActive(true);
+            clickCount = 0;
+            fishingstart = true;
         }
-    }
 
-    
-    void FishingMotion(GameObject parentObject)
-    {
-        int clickCount = 0;
-
-        while (clickCount < 20)
+        if (fishingstart)
         {
+            progressText.gameObject.SetActive(true);
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
@@ -80,11 +98,16 @@ public class  Fishing : MonoBehaviour
 
                 progressText.text = progressPercentage.ToString() + "%";
             }
-    
-        }
-        fishCount++;
-        progressText.text = "0%";
-    }
 
+            if (clickCount==20)
+            {
+                print("물고기를 획득했습니다");
+                fishCount++;
+                progressText.text = "0%";
+                fishingstart=false;
+                progressText.gameObject.SetActive(false);
+            }
+        }
+    }
 }
 
