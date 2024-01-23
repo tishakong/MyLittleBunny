@@ -287,11 +287,11 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 64
-  raycastLength: 0.5
+  raycastLength: 2
   fishingable: 0
   fishingstart: 0
   hitObject: {fileID: 0}
-  fishingMotion: {fileID: 0}
+  fishingMotion: {fileID: 3040932069230826427, guid: 7ea0dee522e864b7189f0cc33ad0c230, type: 3}
   fishCount: 0
   progressText: {fileID: 0}
   clickCount: 0

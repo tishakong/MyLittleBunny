@@ -1775,7 +1775,7 @@ GameObject:
   m_Component:
   - component: {fileID: 436637243}
   - component: {fileID: 436637244}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: bakery_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7028,7 +7028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1279336169}
   - component: {fileID: 1279336170}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: bakery_26_7 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7364,7 +7364,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1346585621}
   - component: {fileID: 1346585622}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: bakery_26_7 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8867,7 +8867,7 @@ GameObject:
   - component: {fileID: 1365993853}
   - component: {fileID: 1365993852}
   - component: {fileID: 1365993851}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11656,7 +11656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1958976713}
   - component: {fileID: 1958976714}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: bakery_26_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12893,3 +12893,5 @@ SceneRoots:
   - {fileID: 579306252}
   - {fileID: 1141969986}
   - {fileID: 455928278}
+  - {fileID: 396168947}
+  - {fileID: 1771756333}

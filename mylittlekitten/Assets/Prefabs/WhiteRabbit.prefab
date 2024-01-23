@@ -16,7 +16,9 @@ GameObject:
   - component: {fileID: 5012143945759574579}
   - component: {fileID: 7235008040997937186}
   - component: {fileID: 8337962687519321677}
+  - component: {fileID: 8808352092977359455}
   - component: {fileID: 1127586818178145536}
+  - component: {fileID: 3339006358224468177}
   - component: {fileID: 3347050358223490393}
   - component: {fileID: 2036080598999306979}
   m_Layer: 0
@@ -252,6 +254,25 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0075974464, y: -0.49182582}
   m_Size: {x: 0.6049528, y: 0.61634827}
   m_Direction: 0
+--- !u!114 &8808352092977359455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701674944541691363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1472050b5cdc4637bd8e64e7384d6bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  raycastLength: 0.5
+  actionable: 0
+  hitObject: {fileID: 0}
+  getBreadMotion: {fileID: 0}
 --- !u!114 &1127586818178145536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -376,6 +397,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 701674944541691363}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10f44d1460e444676b6cc7ca728e7923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  raycastLength: 2
+  fishingable: 0
+  fishingstart: 0
+  hitObject: {fileID: 0}
+  fishingMotion: {fileID: 3040932069230826427, guid: 7ea0dee522e864b7189f0cc33ad0c230, type: 3}
+  fishCount: 0
+  progressText: {fileID: 0}
+  clickCount: 0
   m_Script: {fileID: 11500000, guid: b4d3f345beaff2744b6ab28924846752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
