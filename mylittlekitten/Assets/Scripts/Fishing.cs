@@ -18,11 +18,18 @@ public class  Fishing : MonoBehaviour
     public int fishCount;
     public TextMeshProUGUI progressText;
     public int clickCount;
+    AudioManager audioManager;
 
     void Start()
     {
+        if (SceneManager.GetActiveScene().name != "MainMap")
+        {
+            Destroy(this);
+        }
+
         capsuleCollider = GetComponent<CapsuleCollider2D>();
-        
+        audioManager = FindObjectOfType<AudioManager>();
+
         GameObject fishingProgressObject = GameObject.Find("FishingProgress");
 
         if (fishingProgressObject != null)
@@ -44,10 +51,6 @@ public class  Fishing : MonoBehaviour
 
     private void Update()
     {
-        if (SceneManager.GetActiveScene().name != "MainMap")
-        {
-            Destroy(this);
-        }
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
 
@@ -89,6 +92,8 @@ public class  Fishing : MonoBehaviour
             else
             {
                 fishingstart = true;
+                audioManager.PlaySound("FishingStart");
+                audioManager.PlaySound("Fishing");
             }
             
         }
@@ -108,16 +113,21 @@ public class  Fishing : MonoBehaviour
 
             if (clickCount==20)
             {
-                print("�����⸦ ȹ���߽��ϴ�");
                 fishCount++;
                 progressText.text = "0%";
                 fishingstart=false;
                 progressText.gameObject.SetActive(false);
                 
-
                 Vector3 fishingVector = new Vector3(11.1f, 1.3f+0.2f*(fishCount-1), transform.position.z);
 
                 GameObject newObject = Instantiate(fishingMotion, fishingVector, transform.rotation);
+            }
+        }
+        else
+        {
+            if (GameObject.Find("ADFishing"))
+            {
+                Destroy(GameObject.Find("ADFishing"));
             }
         }
         

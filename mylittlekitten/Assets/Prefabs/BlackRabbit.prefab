@@ -308,6 +308,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ADWatering: {fileID: 8300000, guid: b70e124dc13fe4041858ca8e9acd12db, type: 3}
+  ADFishingStart: {fileID: 8300000, guid: 527475f6491bc59448d4f49146bd9e5b, type: 3}
+  ADFishing: {fileID: 8300000, guid: c5bcca98a92e8cb4db0d08d842b11ec5, type: 3}
   audioSource: {fileID: 0}
 --- !u!82 &8353973579083266197
 AudioSource:
