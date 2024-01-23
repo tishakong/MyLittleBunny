@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -3770915761974437922}
   - component: {fileID: 1485700450933994664}
   - component: {fileID: 8872466844815427013}
+  - component: {fileID: 404435174033424651}
   - component: {fileID: 1632741551249198435}
   m_Layer: 0
   m_Name: BlackRabbit
@@ -124,10 +125,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.03
+  Movevector: {x: 0, y: 0, z: 0}
   runSpeed: 0.01
   layerMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 384
   raycastLength: 0.5
 --- !u!50 &-3770915761974437922
 Rigidbody2D:
@@ -234,6 +236,25 @@ CapsuleCollider2D:
   m_Offset: {x: 0.007768154, y: -0.47866327}
   m_Size: {x: 0.6116018, y: 0.6116018}
   m_Direction: 0
+--- !u!114 &404435174033424651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972359373685068119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cc2574ec5ed83447809efc98824a963, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  raycastLength: 0.5
+  actionable: 0
+  hitObject: {fileID: 0}
+  wateringMotion: {fileID: 3760325595793181909, guid: 29c02fc61aa7c3e4780541db8ed2a825, type: 3}
 --- !u!114 &1632741551249198435
 MonoBehaviour:
   m_ObjectHideFlags: 0
