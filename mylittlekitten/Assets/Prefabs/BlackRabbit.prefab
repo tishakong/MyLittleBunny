@@ -131,6 +131,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 384
   raycastLength: 0.5
+  fishing: 0
 --- !u!50 &-3770915761974437922
 Rigidbody2D:
   serializedVersion: 4
