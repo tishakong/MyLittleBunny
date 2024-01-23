@@ -1,41 +1,90 @@
 using System.Collections;
+using System.Collections.Generic;
+using UnityEditor.Tilemaps;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
-public class Fishing : MonoBehaviour
+public class  Fishing : MonoBehaviour
 {
-    public int pressCount = 0; 
-
-    public TextMeshProUGUI fishingProgress;
+    private Vector3 vector;
+    private CapsuleCollider2D capsuleCollider;
+    public LayerMask layerMask;
+    public float raycastLength;
+    public bool fishingable;
+    public GameObject hitObject;
+    public GameObject fishingMotion;
+    public int fishCount;
+    public TextMeshProUGUI progressText;
 
     void Start()
     {
-        fishingProgress = GameObject.Find("FishingProgress").GetComponent<TextMeshProUGUI>();
-        // UpdateUI(); 
+        capsuleCollider = GetComponent<CapsuleCollider2D>();
+        progressText = GetComponent<TextMeshProUGUI>();
+        fishCount = 0;
     }
 
-    void Update()
+    private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        float horizontalInput = Input.GetAxisRaw("Horizontal");
+        float verticalInput = Input.GetAxisRaw("Vertical");
+
+        if (horizontalInput != 0 || verticalInput != 0)
         {
-            if (pressCount < 20)
+            fishingable = false;
+            vector.Set(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), transform.position.z);
+
+            RaycastHit2D Interactivehit;
+
+            Vector2 inputDirection = new Vector2(horizontalInput, verticalInput).normalized;
+            Vector2 start = capsuleCollider.bounds.center;
+            Vector2 end = start + inputDirection * raycastLength;
+
+            capsuleCollider.enabled = false;
+            Interactivehit = Physics2D.Linecast(start, end, layerMask);
+            Debug.DrawRay(start, inputDirection * raycastLength, Color.green);
+            capsuleCollider.enabled = true;
+
+            if (Interactivehit.transform != null)
             {
-                pressCount ++;
-                Debug.Log(pressCount);
-                // UpdateUI(); 
+                hitObject = Interactivehit.collider.gameObject;
+                print(hitObject.name);
+                fishingable = true;
             }
             else
             {
-                Debug.Log("물고기를 획득했습니다!");
+                hitObject = null;
             }
+        }
+
+        if (fishingable && Input.GetKeyDown(KeyCode.Z))
+        {
+            FishingMotion(hitObject);
+
+            progressText.gameObject.SetActive(true);
         }
     }
 
-    // void UpdateUI()
-    // {
-    //     float percentage = (float)pressCount / 20 * 100;
-    //     fishingProgress.text = "물고기 획득까지: " + percentage.ToString("F1") + "%";
-    // }
+    
+    void FishingMotion(GameObject parentObject)
+    {
+        int clickCount = 0;
+
+        while (clickCount < 20)
+        {
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                clickCount++;
+
+                float progressPercentage = clickCount / 20.0f * 100.0f;
+
+                progressText.text = progressPercentage.ToString() + "%";
+            }
+    
+        }
+        fishCount++;
+        progressText.text = "0%";
+    }
+
 }
 

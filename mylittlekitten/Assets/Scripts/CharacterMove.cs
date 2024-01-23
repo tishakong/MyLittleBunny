@@ -66,7 +66,7 @@ public class CharacterMove : MonoBehaviour
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
 
-        if (horizontalInput != 0 || verticalInput != 0)
+        if ((horizontalInput != 0 || verticalInput != 0))
         {
             if (Input.GetKey(KeyCode.LeftShift))
             {
@@ -137,7 +137,7 @@ public class CharacterMove : MonoBehaviour
         if (collision.gameObject.CompareTag("Fishing"))
         {
             fishing = true;
-            print(fishing);
+            Debug.Log(fishing);
         }
     }
 }

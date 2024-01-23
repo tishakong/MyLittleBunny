@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 8872466844815427013}
   - component: {fileID: 404435174033424651}
   - component: {fileID: 1632741551249198435}
+  - component: {fileID: 7205615599662717500}
   m_Layer: 0
   m_Name: BlackRabbit
   m_TagString: Untagged
@@ -129,7 +130,7 @@ MonoBehaviour:
   runSpeed: 0.01
   layerMask:
     serializedVersion: 2
-    m_Bits: 384
+    m_Bits: 256
   raycastLength: 0.5
   fishing: 0
 --- !u!50 &-3770915761974437922
@@ -251,7 +252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layerMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   raycastLength: 0.5
   actionable: 0
   hitObject: {fileID: 0}
@@ -269,3 +270,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeTime: 1
+--- !u!114 &7205615599662717500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972359373685068119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10f44d1460e444676b6cc7ca728e7923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  raycastLength: 0.5
+  fishingable: 0
+  hitObject: {fileID: 0}
+  fishingMotion: {fileID: 0}
+  fishCount: 0
+  progressText: {fileID: 0}
