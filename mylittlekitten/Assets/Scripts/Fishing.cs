@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.Tilemaps;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement; 
 
 public class  Fishing : MonoBehaviour
 {
@@ -21,15 +22,14 @@ public class  Fishing : MonoBehaviour
     void Start()
     {
         capsuleCollider = GetComponent<CapsuleCollider2D>();
-        // GameObject.Find·Î GameObject Ã£±â
+        
         GameObject fishingProgressObject = GameObject.Find("FishingProgress");
 
-        // GameObject°¡ nullÀÌ ¾Æ´Ï°í TextMeshProUGUI ÄÄÆ÷³ÍÆ®¸¦ °¡Áö°í ÀÖ´Ù¸é ÇÒ´ç
         if (fishingProgressObject != null)
         {
             progressText = fishingProgressObject.GetComponent<TextMeshProUGUI>();
+            progressText.gameObject.SetActive(false);
 
-            // TextMeshProUGUI ÄÄÆ÷³ÍÆ®°¡ nullÀÌ¸é ·Î±× Ãâ·Â
             if (progressText == null)
             {
                 Debug.LogError("TextMeshProUGUI component not found on FishingProgress GameObject.");
@@ -37,16 +37,17 @@ public class  Fishing : MonoBehaviour
         }
         else
         {
-            // GameObject°¡ nullÀÌ¸é ·Î±× Ãâ·Â
             Debug.LogError("FishingProgress GameObject not found in the scene.");
         }
         fishCount = 0;
-
-        progressText.gameObject.SetActive(false);
     }
 
     private void Update()
     {
+        if (SceneManager.GetActiveScene().name != "MainMap")
+        {
+            Destroy(this);
+        }
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
 
@@ -68,13 +69,10 @@ public class  Fishing : MonoBehaviour
 
             if (Interactivehit.transform != null)
             {
-                hitObject = Interactivehit.collider.gameObject;
-                print(hitObject.name);
                 fishingable = true;
             }
             else
             {
-                hitObject = null;
                 progressText.gameObject.SetActive(false);
                 fishingstart = false;
             }
@@ -83,7 +81,16 @@ public class  Fishing : MonoBehaviour
         if (fishingable && Input.GetKeyDown(KeyCode.Z))
         {
             clickCount = 0;
-            fishingstart = true;
+            if(fishCount>10){
+                Debug.LogError("Limit!");
+                progressText.gameObject.SetActive(true);
+                progressText.text = "No More Fish!";
+            }
+            else
+            {
+                fishingstart = true;
+            }
+            
         }
 
         if (fishingstart)
@@ -101,13 +108,19 @@ public class  Fishing : MonoBehaviour
 
             if (clickCount==20)
             {
-                print("¹°°í±â¸¦ È¹µæÇß½À´Ï´Ù");
+                print("ï¿½ï¿½ï¿½ï¿½ï¿½â¸¦ È¹ï¿½ï¿½ï¿½ß½ï¿½ï¿½Ï´ï¿½");
                 fishCount++;
                 progressText.text = "0%";
                 fishingstart=false;
                 progressText.gameObject.SetActive(false);
+                
+
+                Vector3 fishingVector = new Vector3(11.1f, 1.3f+0.2f*(fishCount-1), transform.position.z);
+
+                GameObject newObject = Instantiate(fishingMotion, fishingVector, transform.rotation);
             }
         }
+        
     }
 }
 

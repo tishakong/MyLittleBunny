@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: -3243659902825457426}
   - component: {fileID: 2048809859393821816}
   - component: {fileID: 6420220045999437207}
+  - component: {fileID: 8733757054035955977}
   m_Layer: 0
   m_Name: BrownRabbit
   m_TagString: Untagged
@@ -131,6 +132,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 384
   raycastLength: 0.5
+  fishing: 0
 --- !u!50 &1818951884973415383
 Rigidbody2D:
   serializedVersion: 4
@@ -268,3 +270,26 @@ MonoBehaviour:
   actionable: 0
   hitObject: {fileID: 0}
   wateringMotion: {fileID: 3760325595793181909, guid: 29c02fc61aa7c3e4780541db8ed2a825, type: 3}
+--- !u!114 &8733757054035955977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6083915006487832443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10f44d1460e444676b6cc7ca728e7923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  raycastLength: 2
+  fishingable: 0
+  fishingstart: 0
+  hitObject: {fileID: 0}
+  fishingMotion: {fileID: 3040932069230826427, guid: 7ea0dee522e864b7189f0cc33ad0c230, type: 3}
+  fishCount: 0
+  progressText: {fileID: 0}
+  clickCount: 0
