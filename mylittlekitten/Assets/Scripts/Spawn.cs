@@ -28,19 +28,19 @@ public class Spawn : MonoBehaviour
             }
             else if (previousScene == "cafe_black_ver")
             {
-                player.transform.position = new Vector3(30, -10, 0);
+                player.transform.position = new Vector3(30, -7, 0);
             }
             else if (previousScene == "cafe_white_ver")
             {
-                player.transform.position = new Vector3(3.6f, -4, 0);
+                player.transform.position = new Vector3(3.6f, -2, 0);
             }
             else if (previousScene == "Christmas")
             {
-                player.transform.position = new Vector3(14.5f, -15, 0);
+                player.transform.position = new Vector3(14.5f, -13, 0);
             }
             else if (previousScene == "Garden")
             {
-                player.transform.position = new Vector3(13, 4, 0);
+                player.transform.position = new Vector3(13, 5, 0);
             }
 
             GameObject mainCamera = Camera.main.gameObject;

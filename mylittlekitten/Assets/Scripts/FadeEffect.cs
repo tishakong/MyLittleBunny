@@ -10,7 +10,7 @@ public class FadeEffect : MonoBehaviour
     float accumTime = 0f;
     private Coroutine fadeCor;
     
-    private void Awake() 
+    public void Awake() 
     {
         cg = gameObject.GetComponent<CanvasGroup>();
         StartFadeIn();
