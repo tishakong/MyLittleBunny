@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -3770915761974437922}
   - component: {fileID: 1485700450933994664}
   - component: {fileID: 8872466844815427013}
-  - component: {fileID: 2475849304459154267}
+  - component: {fileID: 1632741551249198435}
   m_Layer: 0
   m_Name: BlackRabbit
   m_TagString: Untagged
@@ -234,7 +234,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.007768154, y: -0.47866327}
   m_Size: {x: 0.6116018, y: 0.6116018}
   m_Direction: 0
---- !u!114 &2475849304459154267
+--- !u!114 &1632741551249198435
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -246,3 +246,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7770680ddb84cfb46b73d5693ffb84e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadeTime: 1
