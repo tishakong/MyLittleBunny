@@ -17,9 +17,9 @@ GameObject:
   - component: {fileID: -3243659902825457426}
   - component: {fileID: 2048809859393821816}
   - component: {fileID: 6420220045999437207}
-  - component: {fileID: 8733757054035955977}
   - component: {fileID: 3205395334766867701}
   - component: {fileID: 5765243500061484086}
+  - component: {fileID: 604231003068084519}
   m_Layer: 0
   m_Name: BrownRabbit
   m_TagString: Untagged
@@ -391,6 +391,15 @@ MonoBehaviour:
   fishCount: 0
   progressText: {fileID: 0}
   clickCount: 0
+--- !u!114 &604231003068084519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6083915006487832443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b4d3f345beaff2744b6ab28924846752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
