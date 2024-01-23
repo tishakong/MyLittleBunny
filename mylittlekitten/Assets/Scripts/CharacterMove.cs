@@ -5,21 +5,24 @@ using UnityEngine;
 
 public class CharacterMove : MonoBehaviour
 {
-    //°È±â À§ÇÑ º¯¼ö
+    //ï¿½È±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     public float speed;
     public Vector3 Movevector;
     public float runSpeed;
     private float applyRunSpeed;
 
 
-    //°È´Â ¾Ö´Ï¸ÞÀÌ¼Ç º¯¼ö
+    //ï¿½È´ï¿½ ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½ï¿½ï¿½ï¿½
     private Animator animator;
     private SpriteRenderer spriteRenderer;
 
-    //¿ÀºêÁ§Æ® °¨Áö º¯¼ö
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     private CapsuleCollider2D capsuleCollider;
     public LayerMask layerMask;
     public float raycastLength;
+
+
+    public bool fishing;
 
     void Start()
     {
@@ -30,7 +33,7 @@ public class CharacterMove : MonoBehaviour
 
     private void Update()
     {
-        //sorting layer ÀüÈ¯¿ë raycast
+        //sorting layer ï¿½ï¿½È¯ï¿½ï¿½ raycast
         RaycastHit2D sorthit;
 
         Vector2 startDown = capsuleCollider.bounds.center;
@@ -59,7 +62,7 @@ public class CharacterMove : MonoBehaviour
 
 
 
-        // Ä³¸¯ÅÍ »óÇÏÁÂ¿ì ÀÌµ¿, ¿ÀºêÁ§Æ® ¶ÕÁö ¾Ê´Â ¿ëµµ raycast
+        // Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Â¿ï¿½ ï¿½Ìµï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½Ê´ï¿½ ï¿½ëµµ raycast
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
 
@@ -77,7 +80,6 @@ public class CharacterMove : MonoBehaviour
             if (Movevector.x !=0)
                 Movevector.y = 0;
 
-            //¿ÞÂÊ ÀÌµ¿ ½Ã flipx Àû¿ë
             if (Movevector.x < 0)
             {
                 spriteRenderer.flipX = true;
@@ -127,6 +129,15 @@ public class CharacterMove : MonoBehaviour
         else
         {
             animator.SetBool("Walking", false);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Fishing"))
+        {
+            fishing = true;
+            print(fishing);
         }
     }
 }

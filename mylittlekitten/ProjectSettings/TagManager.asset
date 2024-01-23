@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ToInside
   - ToOutside
+  - Fishing
   layers:
   - Default
   - TransparentFX
