@@ -5,21 +5,24 @@ using UnityEngine;
 
 public class CharacterMove : MonoBehaviour
 {
-    //°È±â À§ÇÑ º¯¼ö
+    //ï¿½È±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     public float speed;
     private Vector3 vector;
     public float runSpeed;
     private float applyRunSpeed;
 
 
-    //°È´Â ¾Ö´Ï¸ÞÀÌ¼Ç º¯¼ö
+    //ï¿½È´ï¿½ ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½ï¿½ï¿½ï¿½
     private Animator animator;
     private SpriteRenderer spriteRenderer;
 
-    //¿ÀºêÁ§Æ® °¨Áö º¯¼ö
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     private CapsuleCollider2D capsuleCollider;
     public LayerMask layerMask;
     public float raycastLength;
+
+
+    public bool fishing;
 
     void Start()
     {
@@ -43,7 +46,7 @@ public class CharacterMove : MonoBehaviour
         if (sorthit.collider != null)
         {
             GameObject hitObject = sorthit.collider.gameObject;
-            print("¾Æ·¡·Î ¹«¾ð°¡ ¸ÂÀ½: " + hitObject.name);
+            print("ï¿½Æ·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: " + hitObject.name);
             SpriteRenderer hitSpriteRenderer = hitObject.GetComponent<SpriteRenderer>();
             if (hitSpriteRenderer != null)
             {
@@ -77,7 +80,7 @@ public class CharacterMove : MonoBehaviour
             if (vector.x !=0)
                 vector.y = 0;
 
-            //¿ÞÂÊ ÀÌµ¿ ½Ã flipx Àû¿ë
+            //ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ ï¿½ï¿½ flipx ï¿½ï¿½ï¿½ï¿½
             if (vector.x < 0)
             {
                 spriteRenderer.flipX = true;
@@ -107,7 +110,7 @@ public class CharacterMove : MonoBehaviour
             if (hit.transform != null)
             {
                 GameObject hitObject = hit.collider.gameObject;
-                print("¹«¾ð°¡ ¸ÂÀ½: " + hitObject.name);
+                print("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: " + hitObject.name);
                 animator.SetBool("Walking", false);
             }
             else
@@ -128,6 +131,15 @@ public class CharacterMove : MonoBehaviour
         else
         {
             animator.SetBool("Walking", false);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Fishing"))
+        {
+            fishing = true;
+            print(fishing);
         }
     }
 }
