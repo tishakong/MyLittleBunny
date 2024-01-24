@@ -447,9 +447,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layerMask:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 1073741832
   raycastLength: 2.2
   getable: 0
   hitObject: {fileID: 0}
   breadcount: 0
   breadheight: 0
+  buysuccess: {fileID: 5052347512528711513, guid: 8e0a6d653372d0842870445b7e1ec92a, type: 3}
+  buyfail: {fileID: 5052347512528711513, guid: 2217381b4661fb24a8232b87b6325531, type: 3}
