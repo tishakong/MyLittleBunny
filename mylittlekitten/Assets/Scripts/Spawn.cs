@@ -11,6 +11,7 @@ public class Spawn : MonoBehaviour
 
     void Start()
     {
+        StateUIManager.instance.gameObject.SetActive(true);
         player = Instantiate(charPrefabs[(int)DataManager.Instance.currentCharacter]);
         string previousScene = PlayerPrefs.GetString("PreviousScene");
         print(previousScene);

@@ -104687,7 +104687,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!224 &1844909462
 RectTransform:
@@ -106132,7 +106132,7 @@ GameObject:
   - component: {fileID: 1933345228}
   - component: {fileID: 1933345227}
   - component: {fileID: 1933345226}
-  - component: {fileID: 1933345225}
+  - component: {fileID: 1933345229}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -106159,19 +106159,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1933345225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933345223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7770680ddb84cfb46b73d5693ffb84e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fadeTime: 1
 --- !u!225 &1933345226
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -106222,6 +106209,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1933345223}
   m_CullTransparentMesh: 1
+--- !u!114 &1933345229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933345223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6dbd2a20223a4052bc5e69bdf724cdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeTime: 1
 --- !u!1001 &1959560761
 PrefabInstance:
   m_ObjectHideFlags: 0
