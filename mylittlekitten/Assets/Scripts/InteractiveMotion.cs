@@ -58,6 +58,7 @@ public class InteractiveMotion : MonoBehaviour
 
         if (actionable && Input.GetKeyDown(KeyCode.Z))
         {
+            DataManager.Instance.myCoin += 1;
             audioManager.PlaySound("Watering");
             Watering(hitObject);
             StartCoroutine(WateringMotion());
