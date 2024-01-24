@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 1127586818178145536}
   - component: {fileID: 3347050358223490393}
   - component: {fileID: 2036080598999306979}
+  - component: {fileID: 1072767899199316672}
   - component: {fileID: 7364972512324233342}
   m_Layer: 30
   m_Name: WhiteRabbit
@@ -416,6 +417,29 @@ MonoBehaviour:
   fishCount: 0
   progressText: {fileID: 0}
   clickCount: 0
+--- !u!114 &1072767899199316672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701674944541691363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae28af623d11b4e408f96422488be3de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  raycastLength: 2
+  harvestable: 0
+  harvestStart: 0
+  hitObject: {fileID: 0}
+  harvestMotion: {fileID: 261172169481783441, guid: b28431228f6974437b32b1c8fc1325b2, type: 3}
+  harvestCount: 0
+  progressText: {fileID: 0}
+  clickCount: 0
 --- !u!114 &7364972512324233342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -432,6 +456,6 @@ MonoBehaviour:
   ADFishingStart: {fileID: 8300000, guid: 527475f6491bc59448d4f49146bd9e5b, type: 3}
   ADFishing: {fileID: 8300000, guid: c5bcca98a92e8cb4db0d08d842b11ec5, type: 3}
   ADBuySuccess: {fileID: 8300000, guid: 0f803d5aa0e4d624a8f6baef905f4a8a, type: 3}
-  ADHarvest: {fileID: 0}
   ADGetBread: {fileID: 8300000, guid: 844b6ef7938b6f74d841164272a9859b, type: 3}
+  ADHarvest: {fileID: 8300000, guid: 3c2b3244308f04549af38a7c412ba064, type: 3}
   audioSource: {fileID: 0}
