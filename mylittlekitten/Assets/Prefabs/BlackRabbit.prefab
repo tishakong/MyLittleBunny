@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 404435174033424651}
   - component: {fileID: 1632741551249198435}
   - component: {fileID: 7205615599662717500}
+  - component: {fileID: 9039321140302472628}
   - component: {fileID: 2926509137881077874}
   - component: {fileID: 8353973579083266197}
   m_Layer: 30
@@ -293,6 +294,29 @@ MonoBehaviour:
   hitObject: {fileID: 0}
   fishingMotion: {fileID: 3040932069230826427, guid: 7ea0dee522e864b7189f0cc33ad0c230, type: 3}
   fishCount: 0
+  progressText: {fileID: 0}
+  clickCount: 0
+--- !u!114 &9039321140302472628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972359373685068119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae28af623d11b4e408f96422488be3de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  raycastLength: 2
+  harvestable: 0
+  harvestStart: 0
+  hitObject: {fileID: 0}
+  harvestMotion: {fileID: 0}
+  harvestCount: 0
   progressText: {fileID: 0}
   clickCount: 0
 --- !u!114 &2926509137881077874
