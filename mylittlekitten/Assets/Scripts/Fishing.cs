@@ -36,15 +36,6 @@ public class  Fishing : MonoBehaviour
         {
             progressText = fishingProgressObject.GetComponent<TextMeshProUGUI>();
             progressText.gameObject.SetActive(false);
-
-            if (progressText == null)
-            {
-                Debug.LogError("TextMeshProUGUI component not found on FishingProgress GameObject.");
-            }
-        }
-        else
-        {
-            Debug.LogError("FishingProgress GameObject not found in the scene.");
         }
         fishCount = 0;
     }

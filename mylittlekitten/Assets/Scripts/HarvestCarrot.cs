@@ -36,15 +36,6 @@ public class  HarvestCarrot : MonoBehaviour
         {
             progressText = harvestProgressObject.GetComponent<TextMeshProUGUI>();
             progressText.gameObject.SetActive(false);
-
-            if (progressText == null)
-            {
-                Debug.LogError("TextMeshProUGUI component not found on HarvestProgress GameObject.");
-            }
-        }
-        else
-        {
-            Debug.LogError("HarvestProgress GameObject not found in the scene.");
         }
         harvestCount = 0;
     }
