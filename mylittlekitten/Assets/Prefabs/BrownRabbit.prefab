@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 3205395334766867701}
   - component: {fileID: 5765243500061484086}
   - component: {fileID: 604231003068084519}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: BrownRabbit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
