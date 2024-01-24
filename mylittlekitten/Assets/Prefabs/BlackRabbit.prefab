@@ -336,8 +336,9 @@ MonoBehaviour:
   ADWatering: {fileID: 8300000, guid: b70e124dc13fe4041858ca8e9acd12db, type: 3}
   ADFishingStart: {fileID: 8300000, guid: 527475f6491bc59448d4f49146bd9e5b, type: 3}
   ADFishing: {fileID: 8300000, guid: c5bcca98a92e8cb4db0d08d842b11ec5, type: 3}
-  ADBuySuccess: {fileID: 0}
+  ADBuySuccess: {fileID: 8300000, guid: 0f803d5aa0e4d624a8f6baef905f4a8a, type: 3}
   ADHarvest: {fileID: 8300000, guid: 3c2b3244308f04549af38a7c412ba064, type: 3}
+  ADGetBread: {fileID: 8300000, guid: 844b6ef7938b6f74d841164272a9859b, type: 3}
   audioSource: {fileID: 0}
 --- !u!82 &8353973579083266197
 AudioSource:
