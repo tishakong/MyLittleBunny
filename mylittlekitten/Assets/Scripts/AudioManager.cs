@@ -7,9 +7,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip ADWatering;
     public AudioClip ADFishingStart;
     public AudioClip ADFishing;
-
-
     public AudioClip ADBuySuccess;
+    public AudioClip ADHarvest;
     public AudioSource audioSource;
 
     void Awake()
@@ -33,6 +32,8 @@ public class AudioManager : MonoBehaviour
                 audioSource.clip = ADFishing; break;
             case "BuySuccess":
                 audioSource.clip = ADBuySuccess; break;
+            case "Harvest":
+                audioSource.clip = ADHarvest; break;
         }
         audioSource.Play();
         Destroy(go, audioSource.clip.length);
