@@ -108,7 +108,7 @@ public class GetBread : MonoBehaviour
             // hitObject 삭제
             Destroy(hitObject);
 
-            // 여기에 사운드 재생 코드 추가
+            audioManager.PlaySound("GetBread");
         }
     }
 
