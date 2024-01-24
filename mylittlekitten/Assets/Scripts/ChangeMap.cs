@@ -9,11 +9,13 @@ public class ChangeMap : MonoBehaviour
     public float fadeTime = 1f;
     float accumTime = 0f;
     private Coroutine fadeCor;
+    GetBread getbread;
 
     public void Awake() 
     {
         cg = gameObject.GetComponent<CanvasGroup>();
         StartFadeOut();
+        getbread = FindObjectOfType<GetBread>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -44,8 +46,14 @@ public class ChangeMap : MonoBehaviour
 
         if (other.gameObject.CompareTag("ToOutside"))
         {
-            print("ToOutside �±׵�");
-            SceneManager.LoadScene("MainMap");
+            if (getbread.breadcount==0)
+            {
+                SceneManager.LoadScene("MainMap");
+            }
+            else
+            {
+                getbread.exitable = false;
+            }
         }
 
     }

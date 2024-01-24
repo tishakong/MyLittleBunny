@@ -13,10 +13,17 @@ public class GetBread : MonoBehaviour
     public GameObject hitObject;
     public int breadcount;
     public float breadheight;
+    private bool buyable;
+    public bool exitable=true;
+    public GameObject buysuccess;
+    public GameObject buyfail;
+    public GameObject cantExit;
+    AudioManager audioManager;
 
     void Start()
     {
         capsuleCollider = GetComponent<CapsuleCollider2D>();
+        audioManager = FindObjectOfType<AudioManager>();
         breadcount = 0;
     }
 
@@ -28,6 +35,7 @@ public class GetBread : MonoBehaviour
         if (horizontalInput != 0 || verticalInput != 0)
         {
             getable = false;
+            buyable = false;
             vector.Set(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), transform.position.z);
 
             RaycastHit2D Interactivehit;
@@ -44,8 +52,17 @@ public class GetBread : MonoBehaviour
             if (Interactivehit.transform != null)
             {
                 hitObject = Interactivehit.collider.gameObject;
-                print(hitObject.name);
-                getable = true;
+                int hitObjectLayer = hitObject.layer;
+                string hitObjectLayerName = LayerMask.LayerToName(hitObjectLayer);
+                if (hitObjectLayerName == "Bread")
+                {
+                    getable = true;
+                    print("빵 줍기 가능");
+                } else if (hitObjectLayerName == "InteractiveNPC")
+                {
+                    buyable = true;
+                    print("말걸기 가능");
+                }
             }
             else
             {
@@ -56,6 +73,16 @@ public class GetBread : MonoBehaviour
         if (getable && Input.GetKeyDown(KeyCode.Z))
         {
             GetBreadMotion();
+        }
+
+        if (buyable && Input.GetKeyDown(KeyCode.Z))
+        {
+            BuyMotion();
+        }
+
+        if (breadcount!=0 && !exitable)
+        {
+            StartCoroutine(Exit());
         }
     }
     void GetBreadMotion()
@@ -85,4 +112,49 @@ public class GetBread : MonoBehaviour
         }
     }
 
+    void BuyMotion()
+    {
+        //브래드카운트와 돈 보유량에 따라 하는 buyfail, buysuccess행동 달라지게 하기
+        breadcount = 0; breadheight=0;
+        foreach (Transform child in transform)
+        {
+            if (child.name == "BreadMotion")
+            {
+                Destroy(child.gameObject);
+            }
+        }
+        StartCoroutine(BuySuccess());
+        audioManager.PlaySound("BuySuccess");
+        //돈 깎이기
+    }
+
+    IEnumerator BuySuccess()
+    {
+        Vector3 spawnVector = new Vector3(-5.8f, 2.6f,0);
+        GameObject newObject = Instantiate(buysuccess, spawnVector, hitObject.transform.rotation);
+        yield return new WaitForSeconds(2.0f);
+        Destroy(newObject);
+    }
+
+    IEnumerator BuyFail()
+    {
+        Vector3 wateringVector = new Vector3(-5.8f, 2.6f, 0);
+        GameObject newObject = Instantiate(buyfail, wateringVector, hitObject.transform.rotation);
+
+        // 일정 시간 대기
+        yield return new WaitForSeconds(2.0f);
+        Destroy(newObject);
+    }
+
+    IEnumerator Exit()
+    {
+        if (GameObject.Find("ExitObject") == null)
+        {
+            Vector3 spawnVector = new Vector3(-5.8f, 2.6f, 0);
+            GameObject ExitObject = Instantiate(cantExit, spawnVector, transform.rotation);
+            yield return new WaitForSeconds(1.0f);
+            Destroy(ExitObject);
+            exitable = true;
+        }
+    }
 }
