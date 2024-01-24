@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 7205615599662717500}
   - component: {fileID: 2926509137881077874}
   - component: {fileID: 8353973579083266197}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: BlackRabbit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
