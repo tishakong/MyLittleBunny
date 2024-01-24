@@ -217,7 +217,8 @@ GameObject:
   m_Component:
   - component: {fileID: 32010816}
   - component: {fileID: 32010815}
-  m_Layer: 8
+  - component: {fileID: 32010817}
+  m_Layer: 3
   m_Name: bakery_26_12 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -284,13 +285,72 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 32010814}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.6599998, y: 0.81, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.6694002, y: -1.3300002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &32010817
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32010814}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.56, y: 0.56}
+    newSize: {x: 0.56, y: 0.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.25, y: 0.01}
+      - {x: 0.28, y: 0.049999997}
+      - {x: 0.28, y: 0.19}
+      - {x: 0.25, y: 0.22999999}
+      - {x: 0.19999999, y: 0.28}
+      - {x: -0.22, y: 0.28}
+      - {x: -0.28, y: 0.22}
+      - {x: -0.28, y: -0.14999999}
+      - {x: -0.26, y: -0.19999999}
+      - {x: -0.22999999, y: -0.25}
+      - {x: -0.19999999, y: -0.28}
+      - {x: -0.06, y: -0.28}
+      - {x: -0.02, y: -0.24}
+      - {x: 0.049999997, y: -0.19}
+  m_UseDelaunayMesh: 0
 --- !u!1 &41257073
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,7 +361,8 @@ GameObject:
   m_Component:
   - component: {fileID: 41257075}
   - component: {fileID: 41257074}
-  m_Layer: 8
+  - component: {fileID: 41257076}
+  m_Layer: 3
   m_Name: bakery_26_9 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -368,13 +429,73 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41257073}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.1699996, y: -1.22, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.1794, y: -3.3600001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &41257076
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41257073}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.52}
+    newSize: {x: 0.52, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26, y: 0.11}
+      - {x: 0.25, y: 0.14999999}
+      - {x: 0.14999999, y: 0.24}
+      - {x: 0.099999994, y: 0.26}
+      - {x: -0.099999994, y: 0.26}
+      - {x: -0.14999999, y: 0.25}
+      - {x: -0.21, y: 0.19}
+      - {x: -0.26, y: 0.12}
+      - {x: -0.26, y: -0.14999999}
+      - {x: -0.19, y: -0.21}
+      - {x: -0.11, y: -0.26}
+      - {x: 0.099999994, y: -0.26}
+      - {x: 0.14999999, y: -0.24}
+      - {x: 0.22999999, y: -0.17}
+      - {x: 0.26, y: -0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &58850068
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,8 +506,9 @@ GameObject:
   m_Component:
   - component: {fileID: 58850070}
   - component: {fileID: 58850069}
-  m_Layer: 8
-  m_Name: bakery_26_2 (2)
+  - component: {fileID: 58850071}
+  m_Layer: 3
+  m_Name: jamcookie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -452,13 +574,65 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 58850068}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.6114988, y: 2.23, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.6020985, y: 0.089999914, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &58850071
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58850068}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.4, y: 0.32}
+    newSize: {x: 0.4, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.14, y: 0.16}
+      - {x: -0.14999999, y: 0.16}
+      - {x: -0.19999999, y: 0.13}
+      - {x: -0.19999999, y: -0.16}
+      - {x: 0.17, y: -0.16}
+      - {x: 0.19999999, y: -0.11}
+      - {x: 0.19999999, y: 0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &59727127
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,7 +782,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 31c7ddc82f3e00e40a95ecd3f6d6ce29, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -628,12 +802,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81946674}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.0310001, y: -4.029, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &122533118
 GameObject:
@@ -645,8 +819,9 @@ GameObject:
   m_Component:
   - component: {fileID: 122533120}
   - component: {fileID: 122533119}
-  m_Layer: 0
-  m_Name: bakery_26_14 (7)
+  - component: {fileID: 122533121}
+  m_Layer: 3
+  m_Name: morningbread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -712,13 +887,67 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122533118}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.83, y: -4.2, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.83940035, y: -6.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &122533121
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122533118}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.44}
+    newSize: {x: 0.52, y: 0.44}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.17, y: 0.22}
+      - {x: -0.19, y: 0.21}
+      - {x: -0.26, y: 0.13}
+      - {x: -0.26, y: -0.17}
+      - {x: -0.24, y: -0.22}
+      - {x: 0.24, y: -0.22}
+      - {x: 0.26, y: -0.19999999}
+      - {x: 0.26, y: 0.17}
+      - {x: 0.19999999, y: 0.22}
+  m_UseDelaunayMesh: 0
 --- !u!1 &172633024
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,7 +1088,8 @@ GameObject:
   m_Component:
   - component: {fileID: 200698250}
   - component: {fileID: 200698251}
-  m_Layer: 8
+  - component: {fileID: 200698252}
+  m_Layer: 3
   m_Name: bakery_26_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -875,11 +1105,11 @@ Transform:
   m_GameObject: {fileID: 200698249}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0159249, y: 0.66859007, z: 0}
+  m_LocalPosition: {x: -0.17347538, y: -3.03141, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 870024612}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &200698251
 SpriteRenderer:
@@ -933,6 +1163,67 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &200698252
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200698249}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.6, y: 0.6}
+    newSize: {x: 0.6, y: 0.6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26999998, y: -0.01}
+      - {x: 0.29999998, y: 0.02}
+      - {x: 0.29999998, y: 0.21}
+      - {x: 0.26999998, y: 0.25}
+      - {x: 0.22, y: 0.29999998}
+      - {x: -0.11, y: 0.29999998}
+      - {x: -0.14999999, y: 0.29}
+      - {x: -0.28, y: 0.14999999}
+      - {x: -0.29999998, y: 0.07}
+      - {x: -0.29999998, y: -0.16}
+      - {x: -0.17999999, y: -0.28}
+      - {x: -0.13, y: -0.29999998}
+      - {x: 0.08, y: -0.29999998}
+      - {x: 0.16, y: -0.22}
+      - {x: 0.17, y: -0.089999996}
+      - {x: 0.17, y: -0.03}
+  m_UseDelaunayMesh: 0
 --- !u!1 &227895248
 GameObject:
   m_ObjectHideFlags: 0
@@ -1011,12 +1302,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 227895248}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.6999998, y: 0.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &227895251
 BoxCollider2D:
@@ -1073,7 +1364,8 @@ GameObject:
   m_Component:
   - component: {fileID: 267465909}
   - component: {fileID: 267465908}
-  m_Layer: 8
+  - component: {fileID: 267465910}
+  m_Layer: 3
   m_Name: bakery_26_5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1140,12 +1432,149 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267465907}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6384672, y: 1.1855284, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.64786756, y: -0.9544717, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &267465910
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267465907}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.32}
+    newSize: {x: 0.28, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.08, y: 0.16}
+      - {x: -0.14, y: 0.099999994}
+      - {x: -0.14, y: -0.11}
+      - {x: -0.11, y: -0.16}
+      - {x: 0.12, y: -0.16}
+      - {x: 0.14, y: -0.14}
+      - {x: 0.14, y: 0.12}
+      - {x: 0.12, y: 0.16}
+  m_UseDelaunayMesh: 0
+--- !u!1 &269365660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 269365661}
+  m_Layer: 0
+  m_Name: Test
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &269365661
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269365660}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1683652793}
+  - {fileID: 2061222711}
+  - {fileID: 1941522853}
+  - {fileID: 122533120}
+  - {fileID: 579306252}
+  - {fileID: 58850070}
+  - {fileID: 2033572025}
+  - {fileID: 618031077}
+  - {fileID: 890099239}
+  - {fileID: 1655331497}
+  - {fileID: 1976877699}
+  - {fileID: 1791741885}
+  - {fileID: 970506957}
+  - {fileID: 1685003835}
+  - {fileID: 200698250}
+  - {fileID: 1861015267}
+  - {fileID: 2089820021}
+  - {fileID: 780988527}
+  - {fileID: 1496542386}
+  - {fileID: 847097746}
+  - {fileID: 2061736111}
+  - {fileID: 2083614518}
+  - {fileID: 1130698769}
+  - {fileID: 2087093793}
+  - {fileID: 267465909}
+  - {fileID: 1460477141}
+  - {fileID: 311801123}
+  - {fileID: 882442119}
+  - {fileID: 1565568665}
+  - {fileID: 1706508368}
+  - {fileID: 1269792588}
+  - {fileID: 1595901441}
+  - {fileID: 1965359675}
+  - {fileID: 41257075}
+  - {fileID: 1993100549}
+  - {fileID: 1880838509}
+  - {fileID: 604661181}
+  - {fileID: 322760239}
+  - {fileID: 1657570218}
+  - {fileID: 921457958}
+  - {fileID: 620904571}
+  - {fileID: 918283077}
+  - {fileID: 32010816}
+  - {fileID: 1779375226}
+  - {fileID: 1131355973}
+  - {fileID: 1494080823}
+  - {fileID: 1995681770}
+  - {fileID: 1180562054}
+  - {fileID: 586617336}
+  - {fileID: 1304186304}
+  - {fileID: 1532096751}
+  - {fileID: 284539762}
+  - {fileID: 1007754612}
+  m_Father: {fileID: 1830173483}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &278743671
 GameObject:
@@ -1159,7 +1588,7 @@ GameObject:
   - component: {fileID: 278743672}
   - component: {fileID: 278743674}
   m_Layer: 8
-  m_Name: bakery_15 (1)
+  m_Name: Table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1225,12 +1654,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 278743671}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 7.5871596, y: -1.2254429, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &278743674
 BoxCollider2D:
@@ -1287,7 +1716,8 @@ GameObject:
   m_Component:
   - component: {fileID: 284539762}
   - component: {fileID: 284539761}
-  m_Layer: 8
+  - component: {fileID: 284539763}
+  m_Layer: 3
   m_Name: bakery_25_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1354,13 +1784,72 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284539760}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.3360078, y: -4.14, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.3454082, y: -6.2799997, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &284539763
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284539760}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.56}
+    newSize: {x: 0.64, y: 0.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.32, y: 0.13}
+      - {x: 0.31, y: 0.17}
+      - {x: 0.21, y: 0.26}
+      - {x: 0.16, y: 0.28}
+      - {x: -0.19, y: 0.28}
+      - {x: -0.31, y: 0.17}
+      - {x: -0.32, y: 0.14}
+      - {x: -0.32, y: -0.17999999}
+      - {x: -0.24, y: -0.26}
+      - {x: -0.19, y: -0.28}
+      - {x: 0.13, y: -0.28}
+      - {x: 0.21, y: -0.26}
+      - {x: 0.29, y: -0.19}
+      - {x: 0.32, y: -0.14999999}
+  m_UseDelaunayMesh: 0
 --- !u!1 &311801121
 GameObject:
   m_ObjectHideFlags: 0
@@ -1371,7 +1860,8 @@ GameObject:
   m_Component:
   - component: {fileID: 311801123}
   - component: {fileID: 311801122}
-  m_Layer: 8
+  - component: {fileID: 311801124}
+  m_Layer: 3
   m_Name: bakery_26_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1438,13 +1928,66 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311801121}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.014263332, y: 1.1448195, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0236637, y: -0.9951806, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &311801124
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311801121}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.12, y: 0.14}
+      - {x: -0.14, y: 0.12}
+      - {x: -0.14, y: -0.12}
+      - {x: -0.12, y: -0.14}
+      - {x: 0.12, y: -0.14}
+      - {x: 0.14, y: -0.12}
+      - {x: 0.14, y: 0.12}
+      - {x: 0.12, y: 0.14}
+  m_UseDelaunayMesh: 0
 --- !u!1 &322760237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1455,7 +1998,8 @@ GameObject:
   m_Component:
   - component: {fileID: 322760239}
   - component: {fileID: 322760238}
-  m_Layer: 8
+  - component: {fileID: 322760240}
+  m_Layer: 3
   m_Name: bakery_26_11 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1522,13 +2066,73 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 322760237}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.38, y: -1.2, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.3894005, y: -3.3400002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &322760240
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322760237}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.52}
+    newSize: {x: 0.52, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26, y: 0.11}
+      - {x: 0.25, y: 0.14999999}
+      - {x: 0.14999999, y: 0.24}
+      - {x: 0.099999994, y: 0.26}
+      - {x: -0.099999994, y: 0.26}
+      - {x: -0.14999999, y: 0.25}
+      - {x: -0.21, y: 0.19}
+      - {x: -0.26, y: 0.12}
+      - {x: -0.26, y: -0.14999999}
+      - {x: -0.19, y: -0.21}
+      - {x: -0.11, y: -0.26}
+      - {x: 0.099999994, y: -0.26}
+      - {x: 0.14999999, y: -0.24}
+      - {x: 0.22999999, y: -0.17}
+      - {x: 0.26, y: -0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &389804732
 GameObject:
   m_ObjectHideFlags: 0
@@ -1606,12 +2210,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 389804732}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.0094, y: 2.14, z: 0}
   m_LocalScale: {x: 3.498633, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &395449431
 GameObject:
@@ -1624,7 +2228,7 @@ GameObject:
   - component: {fileID: 395449433}
   - component: {fileID: 395449432}
   m_Layer: 8
-  m_Name: bakery_23 (5)
+  m_Name: plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1690,12 +2294,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395449431}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.12000024, y: 1.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &396168944
 GameObject:
@@ -1791,11 +2395,11 @@ Transform:
   m_GameObject: {fileID: 436637242}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.60999995, z: 0}
+  m_LocalPosition: {x: -1.18, y: -0.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 870024612}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &436637244
 SpriteRenderer:
@@ -1849,63 +2453,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &455928278
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 701674944541691363, guid: 1879e8dab110ef0499ad3727fd58075c, type: 3}
-      propertyPath: m_Name
-      value: WhiteRabbit
-      objectReference: {fileID: 0}
-    - target: {fileID: 8103463708430759334, guid: 1879e8dab110ef0499ad3727fd58075c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.4159179
-      objectReference: {fileID: 0}
-    - target: {fileID: 8103463708430759334, guid: 1879e8dab110ef0499ad3727fd58075c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.4289098
-      objectReference: {fileID: 0}
-    - target: {fileID: 8103463708430759334, guid: 1879e8dab110ef0499ad3727fd58075c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8103463708430759334, guid: 1879e8dab110ef0499ad3727fd58075c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8103463708430759334, guid: 1879e8dab110ef0499ad3727fd58075c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8103463708430759334, guid: 1879e8dab110ef0499ad3727fd58075c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8103463708430759334, guid: 1879e8dab110ef0499ad3727fd58075c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8103463708430759334, guid: 1879e8dab110ef0499ad3727fd58075c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8103463708430759334, guid: 1879e8dab110ef0499ad3727fd58075c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8103463708430759334, guid: 1879e8dab110ef0499ad3727fd58075c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1879e8dab110ef0499ad3727fd58075c, type: 3}
 --- !u!1 &466479234
 GameObject:
   m_ObjectHideFlags: 0
@@ -1983,12 +2530,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466479234}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -7.1663322, y: -1.0716577, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &482357692
 GameObject:
@@ -2001,7 +2548,7 @@ GameObject:
   - component: {fileID: 482357694}
   - component: {fileID: 482357693}
   m_Layer: 8
-  m_Name: bakery_23 (3)
+  m_Name: plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2067,12 +2614,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482357692}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.5179996, y: 1.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &500183263
 GameObject:
@@ -2975,12 +3522,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527128262}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6.0499997, y: -1.83, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &527128267
 BoxCollider2D:
@@ -3037,8 +3584,9 @@ GameObject:
   m_Component:
   - component: {fileID: 579306252}
   - component: {fileID: 579306251}
-  m_Layer: 0
-  m_Name: bakery_26_14 (8)
+  - component: {fileID: 579306253}
+  m_Layer: 3
+  m_Name: morningbread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3104,13 +3652,67 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 579306250}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.04, y: -3.9, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.0494003, y: -6.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &579306253
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579306250}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.44}
+    newSize: {x: 0.52, y: 0.44}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.17, y: 0.22}
+      - {x: -0.19, y: 0.21}
+      - {x: -0.26, y: 0.13}
+      - {x: -0.26, y: -0.17}
+      - {x: -0.24, y: -0.22}
+      - {x: 0.24, y: -0.22}
+      - {x: 0.26, y: -0.19999999}
+      - {x: 0.26, y: 0.17}
+      - {x: 0.19999999, y: 0.22}
+  m_UseDelaunayMesh: 0
 --- !u!1 &586617334
 GameObject:
   m_ObjectHideFlags: 0
@@ -3121,7 +3723,8 @@ GameObject:
   m_Component:
   - component: {fileID: 586617336}
   - component: {fileID: 586617335}
-  m_Layer: 8
+  - component: {fileID: 586617337}
+  m_Layer: 3
   m_Name: bakery_26_14 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3188,13 +3791,67 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586617334}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.6999998, y: -0.31, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.7094002, y: -2.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &586617337
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586617334}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.44}
+    newSize: {x: 0.52, y: 0.44}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.17, y: 0.22}
+      - {x: -0.19, y: 0.21}
+      - {x: -0.26, y: 0.13}
+      - {x: -0.26, y: -0.17}
+      - {x: -0.24, y: -0.22}
+      - {x: 0.24, y: -0.22}
+      - {x: 0.26, y: -0.19999999}
+      - {x: 0.26, y: 0.17}
+      - {x: 0.19999999, y: 0.22}
+  m_UseDelaunayMesh: 0
 --- !u!1 &604661179
 GameObject:
   m_ObjectHideFlags: 0
@@ -3205,7 +3862,8 @@ GameObject:
   m_Component:
   - component: {fileID: 604661181}
   - component: {fileID: 604661180}
-  m_Layer: 8
+  - component: {fileID: 604661182}
+  m_Layer: 3
   m_Name: bakery_26_11 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3272,13 +3930,73 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604661179}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.79, y: -1.2, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.7994003, y: -3.3400002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &604661182
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604661179}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.52}
+    newSize: {x: 0.52, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26, y: 0.11}
+      - {x: 0.25, y: 0.14999999}
+      - {x: 0.14999999, y: 0.24}
+      - {x: 0.099999994, y: 0.26}
+      - {x: -0.099999994, y: 0.26}
+      - {x: -0.14999999, y: 0.25}
+      - {x: -0.21, y: 0.19}
+      - {x: -0.26, y: 0.12}
+      - {x: -0.26, y: -0.14999999}
+      - {x: -0.19, y: -0.21}
+      - {x: -0.11, y: -0.26}
+      - {x: 0.099999994, y: -0.26}
+      - {x: 0.14999999, y: -0.24}
+      - {x: 0.22999999, y: -0.17}
+      - {x: 0.26, y: -0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &618031075
 GameObject:
   m_ObjectHideFlags: 0
@@ -3289,8 +4007,9 @@ GameObject:
   m_Component:
   - component: {fileID: 618031077}
   - component: {fileID: 618031076}
-  m_Layer: 8
-  m_Name: bakery_26_2 (4)
+  - component: {fileID: 618031078}
+  m_Layer: 3
+  m_Name: jamcookie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3356,13 +4075,65 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 618031075}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.5500002, y: 1.76, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.5405998, y: -0.3800001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &618031078
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618031075}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.4, y: 0.32}
+    newSize: {x: 0.4, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.14, y: 0.16}
+      - {x: -0.14999999, y: 0.16}
+      - {x: -0.19999999, y: 0.13}
+      - {x: -0.19999999, y: -0.16}
+      - {x: 0.17, y: -0.16}
+      - {x: 0.19999999, y: -0.11}
+      - {x: 0.19999999, y: 0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &620904569
 GameObject:
   m_ObjectHideFlags: 0
@@ -3373,7 +4144,8 @@ GameObject:
   m_Component:
   - component: {fileID: 620904571}
   - component: {fileID: 620904570}
-  m_Layer: 8
+  - component: {fileID: 620904572}
+  m_Layer: 3
   m_Name: bakery_26_10 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3440,13 +4212,73 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620904569}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.3899994, y: -0.61, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.3993998, y: -2.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &620904572
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620904569}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.52}
+    newSize: {x: 0.52, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26, y: 0.11}
+      - {x: 0.25, y: 0.14999999}
+      - {x: 0.14999999, y: 0.24}
+      - {x: 0.099999994, y: 0.26}
+      - {x: -0.099999994, y: 0.26}
+      - {x: -0.14999999, y: 0.25}
+      - {x: -0.21, y: 0.19}
+      - {x: -0.26, y: 0.12}
+      - {x: -0.26, y: -0.14999999}
+      - {x: -0.19, y: -0.21}
+      - {x: -0.11, y: -0.26}
+      - {x: 0.099999994, y: -0.26}
+      - {x: 0.14999999, y: -0.24}
+      - {x: 0.22999999, y: -0.17}
+      - {x: 0.26, y: -0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &647532917
 GameObject:
   m_ObjectHideFlags: 0
@@ -3458,8 +4290,8 @@ GameObject:
   - component: {fileID: 647532920}
   - component: {fileID: 647532919}
   - component: {fileID: 647532918}
-  m_Layer: 0
-  m_Name: Shiba (1)
+  m_Layer: 9
+  m_Name: Shiba
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3546,12 +4378,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 647532917}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.6399999, y: -2.45, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.6305995, y: -4.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1549671629}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &731568429
 GameObject:
@@ -3714,12 +4546,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 732467614}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.64, y: -3.6053, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &780988525
 GameObject:
@@ -3731,7 +4563,8 @@ GameObject:
   m_Component:
   - component: {fileID: 780988527}
   - component: {fileID: 780988526}
-  m_Layer: 8
+  - component: {fileID: 780988528}
+  m_Layer: 3
   m_Name: bakery_26_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3798,13 +4631,69 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780988525}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5525197, y: 2.324036, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.56192, y: 0.18403578, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &780988528
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780988525}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.48, y: 0.36}
+    newSize: {x: 0.48, y: 0.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.24, y: 0.12}
+      - {x: 0.17999999, y: 0.17999999}
+      - {x: -0.099999994, y: 0.17999999}
+      - {x: -0.17999999, y: 0.14999999}
+      - {x: -0.24, y: 0.06}
+      - {x: -0.24, y: -0.13}
+      - {x: -0.22, y: -0.17999999}
+      - {x: 0.06, y: -0.17999999}
+      - {x: 0.089999996, y: -0.16}
+      - {x: 0.17, y: -0.089999996}
+      - {x: 0.24, y: -0.01}
+  m_UseDelaunayMesh: 0
 --- !u!1 &847097744
 GameObject:
   m_ObjectHideFlags: 0
@@ -3815,7 +4704,8 @@ GameObject:
   m_Component:
   - component: {fileID: 847097746}
   - component: {fileID: 847097745}
-  m_Layer: 8
+  - component: {fileID: 847097747}
+  m_Layer: 3
   m_Name: bakery_26_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3882,13 +4772,65 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 847097744}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.608, y: 2.258, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.61740035, y: 0.11799979, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &847097747
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847097744}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.4, y: 0.32}
+    newSize: {x: 0.4, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.14, y: 0.16}
+      - {x: -0.14999999, y: 0.16}
+      - {x: -0.19999999, y: 0.13}
+      - {x: -0.19999999, y: -0.16}
+      - {x: 0.17, y: -0.16}
+      - {x: 0.19999999, y: -0.11}
+      - {x: 0.19999999, y: 0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &848150706
 GameObject:
   m_ObjectHideFlags: 0
@@ -3900,7 +4842,7 @@ GameObject:
   - component: {fileID: 848150708}
   - component: {fileID: 848150707}
   m_Layer: 8
-  m_Name: bakery_23 (1)
+  m_Name: plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3966,12 +4908,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848150706}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.6766469, y: 2.3818123, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &869408779
 GameObject:
@@ -3985,8 +4927,8 @@ GameObject:
   - component: {fileID: 869408781}
   - component: {fileID: 869408780}
   - component: {fileID: 869408783}
-  m_Layer: 8
-  m_Name: Panda (1)
+  m_Layer: 9
+  m_Name: Panda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4073,12 +5015,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 869408779}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.81, y: 1.41, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.8194003, y: -0.73000014, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1549671629}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &869408783
 BoxCollider2D:
@@ -4149,24 +5091,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 870024611}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.18, y: -1.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1712409010}
-  - {fileID: 436637243}
-  - {fileID: 1925937528}
-  - {fileID: 918128407}
-  - {fileID: 1958976713}
-  - {fileID: 1279336169}
-  - {fileID: 1346585621}
-  - {fileID: 1861015267}
-  - {fileID: 200698250}
-  - {fileID: 1685003835}
-  - {fileID: 1067460134}
-  - {fileID: 1316319557}
-  m_Father: {fileID: 0}
+  m_Children: []
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &882442117
 GameObject:
@@ -4178,7 +5108,8 @@ GameObject:
   m_Component:
   - component: {fileID: 882442119}
   - component: {fileID: 882442118}
-  m_Layer: 8
+  - component: {fileID: 882442120}
+  m_Layer: 3
   m_Name: bakery_26_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4245,13 +5176,66 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 882442117}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.24355996, y: 1.1312499, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.23415959, y: -1.0087502, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &882442120
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882442117}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.12, y: 0.14}
+      - {x: -0.14, y: 0.12}
+      - {x: -0.14, y: -0.12}
+      - {x: -0.12, y: -0.14}
+      - {x: 0.12, y: -0.14}
+      - {x: 0.14, y: -0.12}
+      - {x: 0.14, y: 0.12}
+      - {x: 0.12, y: 0.14}
+  m_UseDelaunayMesh: 0
 --- !u!1 &890099237
 GameObject:
   m_ObjectHideFlags: 0
@@ -4262,7 +5246,8 @@ GameObject:
   m_Component:
   - component: {fileID: 890099239}
   - component: {fileID: 890099238}
-  m_Layer: 8
+  - component: {fileID: 890099240}
+  m_Layer: 3
   m_Name: bakery_26_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4329,13 +5314,69 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 890099237}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.7, y: 2.25, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.6905994, y: 0.109999895, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &890099240
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890099237}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.48, y: 0.36}
+    newSize: {x: 0.48, y: 0.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.24, y: 0.12}
+      - {x: 0.17999999, y: 0.17999999}
+      - {x: -0.099999994, y: 0.17999999}
+      - {x: -0.17999999, y: 0.14999999}
+      - {x: -0.24, y: 0.06}
+      - {x: -0.24, y: -0.13}
+      - {x: -0.22, y: -0.17999999}
+      - {x: 0.06, y: -0.17999999}
+      - {x: 0.089999996, y: -0.16}
+      - {x: 0.17, y: -0.089999996}
+      - {x: 0.24, y: -0.01}
+  m_UseDelaunayMesh: 0
 --- !u!1 &893012718
 GameObject:
   m_ObjectHideFlags: 0
@@ -4347,7 +5388,7 @@ GameObject:
   - component: {fileID: 893012720}
   - component: {fileID: 893012719}
   m_Layer: 8
-  m_Name: bakery_23 (2)
+  m_Name: plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4413,12 +5454,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893012718}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.153, y: 2.382, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &901984633
 GameObject:
@@ -4497,12 +5538,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 901984633}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 6.778, y: -3.9609, z: 0}
   m_LocalScale: {x: 1.2789, y: 1.3041, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &911343421
 GameObject:
@@ -4614,12 +5655,11 @@ Transform:
   m_GameObject: {fileID: 918128406}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.09, y: 0.43999994, z: 0}
+  m_LocalPosition: {x: 0.90999997, y: -1.12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2089820021}
-  m_Father: {fileID: 870024612}
+  m_Children: []
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &918128408
 SpriteRenderer:
@@ -4683,7 +5723,8 @@ GameObject:
   m_Component:
   - component: {fileID: 918283077}
   - component: {fileID: 918283076}
-  m_Layer: 8
+  - component: {fileID: 918283078}
+  m_Layer: 3
   m_Name: bakery_26_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4750,13 +5791,72 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918283075}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.0799994, y: 0.81, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.0894, y: -1.3300002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &918283078
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918283075}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.56, y: 0.56}
+    newSize: {x: 0.56, y: 0.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.25, y: 0.01}
+      - {x: 0.28, y: 0.049999997}
+      - {x: 0.28, y: 0.19}
+      - {x: 0.25, y: 0.22999999}
+      - {x: 0.19999999, y: 0.28}
+      - {x: -0.22, y: 0.28}
+      - {x: -0.28, y: 0.22}
+      - {x: -0.28, y: -0.14999999}
+      - {x: -0.26, y: -0.19999999}
+      - {x: -0.22999999, y: -0.25}
+      - {x: -0.19999999, y: -0.28}
+      - {x: -0.06, y: -0.28}
+      - {x: -0.02, y: -0.24}
+      - {x: 0.049999997, y: -0.19}
+  m_UseDelaunayMesh: 0
 --- !u!1 &921457956
 GameObject:
   m_ObjectHideFlags: 0
@@ -4767,7 +5867,8 @@ GameObject:
   m_Component:
   - component: {fileID: 921457958}
   - component: {fileID: 921457957}
-  m_Layer: 8
+  - component: {fileID: 921457959}
+  m_Layer: 3
   m_Name: bakery_26_10 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4834,13 +5935,73 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921457956}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.7799997, y: -0.61, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.7894, y: -2.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &921457959
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921457956}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.52}
+    newSize: {x: 0.52, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26, y: 0.11}
+      - {x: 0.25, y: 0.14999999}
+      - {x: 0.14999999, y: 0.24}
+      - {x: 0.099999994, y: 0.26}
+      - {x: -0.099999994, y: 0.26}
+      - {x: -0.14999999, y: 0.25}
+      - {x: -0.21, y: 0.19}
+      - {x: -0.26, y: 0.12}
+      - {x: -0.26, y: -0.14999999}
+      - {x: -0.19, y: -0.21}
+      - {x: -0.11, y: -0.26}
+      - {x: 0.099999994, y: -0.26}
+      - {x: 0.14999999, y: -0.24}
+      - {x: 0.22999999, y: -0.17}
+      - {x: 0.26, y: -0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &945730059
 GameObject:
   m_ObjectHideFlags: 0
@@ -4918,12 +6079,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 945730059}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.7799997, y: -1.0716577, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &960572396
 GameObject:
@@ -5004,12 +6165,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 960572396}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.95, y: -4.37, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &960572399
 BoxCollider2D:
@@ -5178,12 +6339,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962883302}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.03, y: -4.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &970506955
 GameObject:
@@ -5195,7 +6356,8 @@ GameObject:
   m_Component:
   - component: {fileID: 970506957}
   - component: {fileID: 970506956}
-  m_Layer: 8
+  - component: {fileID: 970506958}
+  m_Layer: 3
   m_Name: bakery_25_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5262,13 +6424,72 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 970506955}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.61, y: 1.88, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.6005995, y: -0.2600001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &970506958
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970506955}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.56}
+    newSize: {x: 0.64, y: 0.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.32, y: 0.13}
+      - {x: 0.31, y: 0.17}
+      - {x: 0.21, y: 0.26}
+      - {x: 0.16, y: 0.28}
+      - {x: -0.19, y: 0.28}
+      - {x: -0.31, y: 0.17}
+      - {x: -0.32, y: 0.14}
+      - {x: -0.32, y: -0.17999999}
+      - {x: -0.24, y: -0.26}
+      - {x: -0.19, y: -0.28}
+      - {x: 0.13, y: -0.28}
+      - {x: 0.21, y: -0.26}
+      - {x: 0.29, y: -0.19}
+      - {x: 0.32, y: -0.14999999}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1007754610
 GameObject:
   m_ObjectHideFlags: 0
@@ -5279,7 +6500,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1007754612}
   - component: {fileID: 1007754611}
-  m_Layer: 8
+  - component: {fileID: 1007754613}
+  m_Layer: 3
   m_Name: bakery_25_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5346,13 +6568,72 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1007754610}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5595665, y: -3.7859237, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.5689669, y: -5.925924, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1007754613
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007754610}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.56}
+    newSize: {x: 0.64, y: 0.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.32, y: 0.13}
+      - {x: 0.31, y: 0.17}
+      - {x: 0.21, y: 0.26}
+      - {x: 0.16, y: 0.28}
+      - {x: -0.19, y: 0.28}
+      - {x: -0.31, y: 0.17}
+      - {x: -0.32, y: 0.14}
+      - {x: -0.32, y: -0.17999999}
+      - {x: -0.24, y: -0.26}
+      - {x: -0.19, y: -0.28}
+      - {x: 0.13, y: -0.28}
+      - {x: 0.21, y: -0.26}
+      - {x: 0.29, y: -0.19}
+      - {x: 0.32, y: -0.14999999}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1067460133
 GameObject:
   m_ObjectHideFlags: 0
@@ -5379,11 +6660,11 @@ Transform:
   m_GameObject: {fileID: 1067460133}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0325184, y: 0, z: 0}
+  m_LocalPosition: {x: -0.14748156, y: -1.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 870024612}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1067460135
 SpriteRenderer:
@@ -5437,6 +6718,72 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1076068304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1076068305}
+  m_Layer: 0
+  m_Name: DecoObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1076068305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076068304}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 389804734}
+  - {fileID: 1151728858}
+  - {fileID: 1954698887}
+  - {fileID: 1331483988}
+  - {fileID: 1376535424}
+  - {fileID: 848150708}
+  - {fileID: 893012720}
+  - {fileID: 482357694}
+  - {fileID: 1434889467}
+  - {fileID: 395449433}
+  - {fileID: 1212949475}
+  - {fileID: 527128264}
+  - {fileID: 227895250}
+  - {fileID: 960572398}
+  - {fileID: 1958875543}
+  - {fileID: 732467616}
+  - {fileID: 466479236}
+  - {fileID: 945730061}
+  - {fileID: 1904214078}
+  - {fileID: 1457885644}
+  - {fileID: 1276316919}
+  - {fileID: 2027774995}
+  - {fileID: 81946676}
+  - {fileID: 962883304}
+  - {fileID: 901984635}
+  - {fileID: 870024612}
+  - {fileID: 1712409010}
+  - {fileID: 436637243}
+  - {fileID: 1925937528}
+  - {fileID: 918128407}
+  - {fileID: 1067460134}
+  - {fileID: 1316319557}
+  - {fileID: 1510264616}
+  - {fileID: 1899033201}
+  - {fileID: 278743673}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1127633493
 GameObject:
   m_ObjectHideFlags: 0
@@ -5531,7 +6878,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1130698769}
   - component: {fileID: 1130698768}
-  m_Layer: 8
+  - component: {fileID: 1130698770}
+  m_Layer: 3
   m_Name: bakery_26_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5598,13 +6946,66 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130698767}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5204945, y: 1.1719587, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.5298948, y: -0.9680414, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1130698770
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130698767}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.44}
+    newSize: {x: 0.52, y: 0.44}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.24, y: 0.22}
+      - {x: -0.26, y: 0.22}
+      - {x: -0.26, y: -0.17}
+      - {x: -0.24, y: -0.22}
+      - {x: 0.21, y: -0.22}
+      - {x: 0.25, y: -0.19}
+      - {x: 0.26, y: -0.099999994}
+      - {x: 0.26, y: 0.19}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1131355971
 GameObject:
   m_ObjectHideFlags: 0
@@ -5615,7 +7016,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1131355973}
   - component: {fileID: 1131355972}
-  m_Layer: 8
+  - component: {fileID: 1131355974}
+  m_Layer: 3
   m_Name: bakery_26_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5682,28 +7084,94 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131355971}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.08, y: 0.252935, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.0894003, y: -1.8870652, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1131355974
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131355971}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.48, y: 0.36}
+    newSize: {x: 0.48, y: 0.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.14, y: 0.17999999}
+      - {x: -0.17999999, y: 0.17999999}
+      - {x: -0.24, y: 0.099999994}
+      - {x: -0.24, y: -0.13}
+      - {x: -0.22, y: -0.17999999}
+      - {x: 0.21, y: -0.17999999}
+      - {x: 0.24, y: -0.13}
+      - {x: 0.24, y: 0.099999994}
+      - {x: 0.17, y: 0.17}
+  m_UseDelaunayMesh: 0
 --- !u!1001 &1141969986
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1416397069}
     m_Modifications:
     - target: {fileID: 5394292379199530646, guid: de91efbcb9f364d6892d224e75743f10, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.79207927
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394292379199530646, guid: de91efbcb9f364d6892d224e75743f10, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.79207927
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394292379199530646, guid: de91efbcb9f364d6892d224e75743f10, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9900991
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394292379199530646, guid: de91efbcb9f364d6892d224e75743f10, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.31
+      value: 3.2772279
       objectReference: {fileID: 0}
     - target: {fileID: 5394292379199530646, guid: de91efbcb9f364d6892d224e75743f10, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.18
+      value: -4.138614
       objectReference: {fileID: 0}
     - target: {fileID: 5394292379199530646, guid: de91efbcb9f364d6892d224e75743f10, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5715,15 +7183,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5394292379199530646, guid: de91efbcb9f364d6892d224e75743f10, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5394292379199530646, guid: de91efbcb9f364d6892d224e75743f10, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5394292379199530646, guid: de91efbcb9f364d6892d224e75743f10, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5394292379199530646, guid: de91efbcb9f364d6892d224e75743f10, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5824,14 +7292,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1151728856}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.5699997, y: 1.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1902883947}
   - {fileID: 1845118812}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1151728859
 BoxCollider2D:
@@ -6608,7 +8076,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1180562054}
   - component: {fileID: 1180562053}
-  m_Layer: 8
+  - component: {fileID: 1180562055}
+  m_Layer: 3
   m_Name: bakery_26_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6675,13 +8144,67 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180562052}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.08, y: -0.31, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.0894003, y: -2.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1180562055
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180562052}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.44}
+    newSize: {x: 0.52, y: 0.44}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.17, y: 0.22}
+      - {x: -0.19, y: 0.21}
+      - {x: -0.26, y: 0.13}
+      - {x: -0.26, y: -0.17}
+      - {x: -0.24, y: -0.22}
+      - {x: 0.24, y: -0.22}
+      - {x: 0.26, y: -0.19999999}
+      - {x: 0.26, y: 0.17}
+      - {x: 0.19999999, y: 0.22}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1212949473
 GameObject:
   m_ObjectHideFlags: 0
@@ -6759,12 +8282,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1212949473}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 7.6, y: -0.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1246784679
 GameObject:
@@ -6860,7 +8383,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1269792588}
   - component: {fileID: 1269792587}
-  m_Layer: 8
+  - component: {fileID: 1269792589}
+  m_Layer: 3
   m_Name: bakery_26_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6927,13 +8451,73 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269792586}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.1699996, y: -0.59, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.1794, y: -2.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1269792589
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269792586}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.52}
+    newSize: {x: 0.52, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26, y: 0.11}
+      - {x: 0.25, y: 0.14999999}
+      - {x: 0.14999999, y: 0.24}
+      - {x: 0.099999994, y: 0.26}
+      - {x: -0.099999994, y: 0.26}
+      - {x: -0.14999999, y: 0.25}
+      - {x: -0.21, y: 0.19}
+      - {x: -0.26, y: 0.12}
+      - {x: -0.26, y: -0.14999999}
+      - {x: -0.19, y: -0.21}
+      - {x: -0.11, y: -0.26}
+      - {x: 0.099999994, y: -0.26}
+      - {x: 0.14999999, y: -0.24}
+      - {x: 0.22999999, y: -0.17}
+      - {x: 0.26, y: -0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1276316917
 GameObject:
   m_ObjectHideFlags: 0
@@ -7011,12 +8595,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1276316917}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.5699997, y: -4.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1279336168
 GameObject:
@@ -7028,8 +8612,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1279336169}
   - component: {fileID: 1279336170}
+  - component: {fileID: 1279336171}
   m_Layer: 3
-  m_Name: bakery_26_7 (1)
+  m_Name: HeartBread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7044,11 +8629,11 @@ Transform:
   m_GameObject: {fileID: 1279336168}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.6499999, z: 0}
+  m_LocalPosition: {x: -1.1894003, y: -3.0500002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 870024612}
+  m_Father: {fileID: 1830173483}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1279336170
 SpriteRenderer:
@@ -7090,7 +8675,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: -506686032, guid: e4d08f44648305b4d82e626a1f0ef107, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7102,6 +8687,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &1279336171
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279336168}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.72, y: 0.56}
+  m_Direction: 0
 --- !u!1 &1304186302
 GameObject:
   m_ObjectHideFlags: 0
@@ -7112,7 +8732,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1304186304}
   - component: {fileID: 1304186303}
-  m_Layer: 8
+  - component: {fileID: 1304186305}
+  m_Layer: 3
   m_Name: bakery_26_14 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7179,13 +8800,67 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1304186302}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.2599998, y: -0.31, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.2694001, y: -2.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1304186305
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304186302}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.44}
+    newSize: {x: 0.52, y: 0.44}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.17, y: 0.22}
+      - {x: -0.19, y: 0.21}
+      - {x: -0.26, y: 0.13}
+      - {x: -0.26, y: -0.17}
+      - {x: -0.24, y: -0.22}
+      - {x: 0.24, y: -0.22}
+      - {x: 0.26, y: -0.19999999}
+      - {x: 0.26, y: 0.17}
+      - {x: 0.19999999, y: 0.22}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1316319556
 GameObject:
   m_ObjectHideFlags: 0
@@ -7212,11 +8887,11 @@ Transform:
   m_GameObject: {fileID: 1316319556}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.18, y: -1.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 870024612}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1316319558
 SpriteRenderer:
@@ -7347,12 +9022,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1331483986}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.58342195, y: 0.99, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1346585620
 GameObject:
@@ -7364,8 +9039,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1346585621}
   - component: {fileID: 1346585622}
+  - component: {fileID: 1346585623}
   m_Layer: 3
-  m_Name: bakery_26_7 (2)
+  m_Name: HeartBread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7380,11 +9056,11 @@ Transform:
   m_GameObject: {fileID: 1346585620}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.3699999, z: 0}
+  m_LocalPosition: {x: -1.1894003, y: -3.3300002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 870024612}
+  m_Father: {fileID: 1830173483}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1346585622
 SpriteRenderer:
@@ -7426,7 +9102,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 4
   m_Sprite: {fileID: -506686032, guid: e4d08f44648305b4d82e626a1f0ef107, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7438,6 +9114,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &1346585623
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346585620}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.72, y: 0.56}
+  m_Direction: 0
 --- !u!1 &1359622712
 GameObject:
   m_ObjectHideFlags: 0
@@ -8890,8 +10601,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0010071, y: 0.00047684}
-  m_SizeDelta: {x: 765, y: 430}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1031, y: 580}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1365993851
 MonoBehaviour:
@@ -9016,7 +10727,7 @@ GameObject:
   - component: {fileID: 1376535424}
   - component: {fileID: 1376535423}
   m_Layer: 8
-  m_Name: bakery_23
+  m_Name: plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9082,12 +10793,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1376535422}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.53, y: 2.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1416397067
 GameObject:
@@ -9136,6 +10847,7 @@ Transform:
   - {fileID: 1359622713}
   - {fileID: 2034787556}
   - {fileID: 1366174697}
+  - {fileID: 2089827190}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1434889465
@@ -9149,7 +10861,7 @@ GameObject:
   - component: {fileID: 1434889467}
   - component: {fileID: 1434889466}
   m_Layer: 8
-  m_Name: bakery_23 (4)
+  m_Name: plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9215,12 +10927,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434889465}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.6999998, y: 1.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1457885641
 GameObject:
@@ -9325,7 +11037,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 9
   m_Sprite: {fileID: 21300000, guid: b3a03b24b2ee6584fa9f554c3186c1fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9345,12 +11057,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1457885641}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.03, y: -4.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1460477139
 GameObject:
@@ -9362,7 +11074,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1460477141}
   - component: {fileID: 1460477140}
-  m_Layer: 8
+  - component: {fileID: 1460477142}
+  m_Layer: 3
   m_Name: bakery_26_5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9429,13 +11142,66 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1460477139}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.50277066, y: 1.1448195, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.51217103, y: -0.9951806, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1460477142
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460477139}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.32}
+    newSize: {x: 0.28, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.08, y: 0.16}
+      - {x: -0.14, y: 0.099999994}
+      - {x: -0.14, y: -0.11}
+      - {x: -0.11, y: -0.16}
+      - {x: 0.12, y: -0.16}
+      - {x: 0.14, y: -0.14}
+      - {x: 0.14, y: 0.12}
+      - {x: 0.12, y: 0.16}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1494080821
 GameObject:
   m_ObjectHideFlags: 0
@@ -9446,7 +11212,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1494080823}
   - component: {fileID: 1494080822}
-  m_Layer: 8
+  - component: {fileID: 1494080824}
+  m_Layer: 3
   m_Name: bakery_26_13 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9513,13 +11280,67 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494080821}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.6999998, y: 0.252935, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.7094002, y: -1.8870652, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1494080824
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494080821}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.48, y: 0.36}
+    newSize: {x: 0.48, y: 0.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.14, y: 0.17999999}
+      - {x: -0.17999999, y: 0.17999999}
+      - {x: -0.24, y: 0.099999994}
+      - {x: -0.24, y: -0.13}
+      - {x: -0.22, y: -0.17999999}
+      - {x: 0.21, y: -0.17999999}
+      - {x: 0.24, y: -0.13}
+      - {x: 0.24, y: 0.099999994}
+      - {x: 0.17, y: 0.17}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1496542384
 GameObject:
   m_ObjectHideFlags: 0
@@ -9530,7 +11351,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1496542386}
   - component: {fileID: 1496542385}
-  m_Layer: 8
+  - component: {fileID: 1496542387}
+  m_Layer: 3
   m_Name: bakery_26_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9597,13 +11419,65 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496542384}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.7844054, y: 2.3801267, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.7938058, y: 0.24012661, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1496542387
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496542384}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.4, y: 0.32}
+    newSize: {x: 0.4, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.14, y: 0.16}
+      - {x: -0.14999999, y: 0.16}
+      - {x: -0.19999999, y: 0.13}
+      - {x: -0.19999999, y: -0.16}
+      - {x: 0.17, y: -0.16}
+      - {x: 0.19999999, y: -0.11}
+      - {x: 0.19999999, y: 0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1510264615
 GameObject:
   m_ObjectHideFlags: 0
@@ -9628,7 +11502,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1510264615}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.57, y: 1.39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9640,7 +11514,7 @@ Transform:
   - {fileID: 1246784680}
   - {fileID: 2119353026}
   - {fileID: 23299773}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1532096749
 GameObject:
@@ -9652,7 +11526,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1532096751}
   - component: {fileID: 1532096750}
-  m_Layer: 8
+  - component: {fileID: 1532096752}
+  m_Layer: 3
   m_Name: bakery_25_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9719,11 +11594,103 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1532096749}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.7799997, y: -4.15, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.7894, y: -6.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 269365661}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1532096752
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532096749}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.56}
+    newSize: {x: 0.64, y: 0.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.32, y: 0.13}
+      - {x: 0.31, y: 0.17}
+      - {x: 0.21, y: 0.26}
+      - {x: 0.16, y: 0.28}
+      - {x: -0.19, y: 0.28}
+      - {x: -0.31, y: 0.17}
+      - {x: -0.32, y: 0.14}
+      - {x: -0.32, y: -0.17999999}
+      - {x: -0.24, y: -0.26}
+      - {x: -0.19, y: -0.28}
+      - {x: 0.13, y: -0.28}
+      - {x: 0.21, y: -0.26}
+      - {x: 0.29, y: -0.19}
+      - {x: 0.32, y: -0.14999999}
+  m_UseDelaunayMesh: 0
+--- !u!1 &1549671628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1549671629}
+  m_Layer: 0
+  m_Name: NPC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1549671629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549671628}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.009400368, y: 2.14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 869408782}
+  - {fileID: 647532920}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1565568663
@@ -9736,7 +11703,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1565568665}
   - component: {fileID: 1565568664}
-  m_Layer: 8
+  - component: {fileID: 1565568666}
+  m_Layer: 3
   m_Name: bakery_26_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9803,13 +11771,66 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565568663}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.13500279, y: 1.2126677, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.12560242, y: -0.9273324, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1565568666
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565568663}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.12, y: 0.14}
+      - {x: -0.14, y: 0.12}
+      - {x: -0.14, y: -0.12}
+      - {x: -0.12, y: -0.14}
+      - {x: 0.12, y: -0.14}
+      - {x: 0.14, y: -0.12}
+      - {x: 0.14, y: 0.12}
+      - {x: 0.12, y: 0.14}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1595901439
 GameObject:
   m_ObjectHideFlags: 0
@@ -9820,7 +11841,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1595901441}
   - component: {fileID: 1595901440}
-  m_Layer: 8
+  - component: {fileID: 1595901442}
+  m_Layer: 3
   m_Name: bakery_26_8 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9887,13 +11909,73 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595901439}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.7899995, y: -0.59, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.7994, y: -2.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1595901442
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595901439}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.52}
+    newSize: {x: 0.52, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26, y: 0.11}
+      - {x: 0.25, y: 0.14999999}
+      - {x: 0.14999999, y: 0.24}
+      - {x: 0.099999994, y: 0.26}
+      - {x: -0.099999994, y: 0.26}
+      - {x: -0.14999999, y: 0.25}
+      - {x: -0.21, y: 0.19}
+      - {x: -0.26, y: 0.12}
+      - {x: -0.26, y: -0.14999999}
+      - {x: -0.19, y: -0.21}
+      - {x: -0.11, y: -0.26}
+      - {x: 0.099999994, y: -0.26}
+      - {x: 0.14999999, y: -0.24}
+      - {x: 0.22999999, y: -0.17}
+      - {x: 0.26, y: -0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1655331495
 GameObject:
   m_ObjectHideFlags: 0
@@ -9904,7 +11986,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1655331497}
   - component: {fileID: 1655331496}
-  m_Layer: 8
+  - component: {fileID: 1655331498}
+  m_Layer: 3
   m_Name: bakery_26_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9971,13 +12054,69 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655331495}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.62, y: 2.03, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.6105995, y: -0.11000013, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1655331498
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655331495}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.48, y: 0.36}
+    newSize: {x: 0.48, y: 0.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.24, y: 0.12}
+      - {x: 0.17999999, y: 0.17999999}
+      - {x: -0.099999994, y: 0.17999999}
+      - {x: -0.17999999, y: 0.14999999}
+      - {x: -0.24, y: 0.06}
+      - {x: -0.24, y: -0.13}
+      - {x: -0.22, y: -0.17999999}
+      - {x: 0.06, y: -0.17999999}
+      - {x: 0.089999996, y: -0.16}
+      - {x: 0.17, y: -0.089999996}
+      - {x: 0.24, y: -0.01}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1657570216
 GameObject:
   m_ObjectHideFlags: 0
@@ -9988,7 +12127,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1657570218}
   - component: {fileID: 1657570217}
-  m_Layer: 8
+  - component: {fileID: 1657570219}
+  m_Layer: 3
   m_Name: bakery_26_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10055,13 +12195,73 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657570216}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.1699996, y: -0.61, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.1794, y: -2.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1657570219
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657570216}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.52}
+    newSize: {x: 0.52, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26, y: 0.11}
+      - {x: 0.25, y: 0.14999999}
+      - {x: 0.14999999, y: 0.24}
+      - {x: 0.099999994, y: 0.26}
+      - {x: -0.099999994, y: 0.26}
+      - {x: -0.14999999, y: 0.25}
+      - {x: -0.21, y: 0.19}
+      - {x: -0.26, y: 0.12}
+      - {x: -0.26, y: -0.14999999}
+      - {x: -0.19, y: -0.21}
+      - {x: -0.11, y: -0.26}
+      - {x: 0.099999994, y: -0.26}
+      - {x: 0.14999999, y: -0.24}
+      - {x: 0.22999999, y: -0.17}
+      - {x: 0.26, y: -0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1683652791
 GameObject:
   m_ObjectHideFlags: 0
@@ -10072,8 +12272,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1683652793}
   - component: {fileID: 1683652792}
-  m_Layer: 0
-  m_Name: bakery_26_14 (4)
+  - component: {fileID: 1683652794}
+  m_Layer: 3
+  m_Name: morningbread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10139,13 +12340,67 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1683652791}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.29, y: -3.88, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.2994003, y: -6.0200005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1683652794
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683652791}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.44}
+    newSize: {x: 0.52, y: 0.44}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.17, y: 0.22}
+      - {x: -0.19, y: 0.21}
+      - {x: -0.26, y: 0.13}
+      - {x: -0.26, y: -0.17}
+      - {x: -0.24, y: -0.22}
+      - {x: 0.24, y: -0.22}
+      - {x: 0.26, y: -0.19999999}
+      - {x: 0.26, y: 0.17}
+      - {x: 0.19999999, y: 0.22}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1685003834
 GameObject:
   m_ObjectHideFlags: 0
@@ -10156,7 +12411,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1685003835}
   - component: {fileID: 1685003836}
-  m_Layer: 8
+  - component: {fileID: 1685003837}
+  m_Layer: 3
   m_Name: bakery_26_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10172,11 +12428,11 @@ Transform:
   m_GameObject: {fileID: 1685003834}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.05, y: 0.3499999, z: 0}
+  m_LocalPosition: {x: -0.13940036, y: -3.3500001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 870024612}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1685003836
 SpriteRenderer:
@@ -10230,6 +12486,67 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1685003837
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685003834}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.6, y: 0.6}
+    newSize: {x: 0.6, y: 0.6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26999998, y: -0.01}
+      - {x: 0.29999998, y: 0.02}
+      - {x: 0.29999998, y: 0.21}
+      - {x: 0.26999998, y: 0.25}
+      - {x: 0.22, y: 0.29999998}
+      - {x: -0.11, y: 0.29999998}
+      - {x: -0.14999999, y: 0.29}
+      - {x: -0.28, y: 0.14999999}
+      - {x: -0.29999998, y: 0.07}
+      - {x: -0.29999998, y: -0.16}
+      - {x: -0.17999999, y: -0.28}
+      - {x: -0.13, y: -0.29999998}
+      - {x: 0.08, y: -0.29999998}
+      - {x: 0.16, y: -0.22}
+      - {x: 0.17, y: -0.089999996}
+      - {x: 0.17, y: -0.03}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1706508366
 GameObject:
   m_ObjectHideFlags: 0
@@ -10240,7 +12557,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1706508368}
   - component: {fileID: 1706508367}
-  m_Layer: 8
+  - component: {fileID: 1706508369}
+  m_Layer: 3
   m_Name: bakery_26_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10307,13 +12625,73 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1706508366}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.58, y: -0.59, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.5894003, y: -2.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1706508369
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706508366}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.52}
+    newSize: {x: 0.52, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26, y: 0.11}
+      - {x: 0.25, y: 0.14999999}
+      - {x: 0.14999999, y: 0.24}
+      - {x: 0.099999994, y: 0.26}
+      - {x: -0.099999994, y: 0.26}
+      - {x: -0.14999999, y: 0.25}
+      - {x: -0.21, y: 0.19}
+      - {x: -0.26, y: 0.12}
+      - {x: -0.26, y: -0.14999999}
+      - {x: -0.19, y: -0.21}
+      - {x: -0.11, y: -0.26}
+      - {x: 0.099999994, y: -0.26}
+      - {x: 0.14999999, y: -0.24}
+      - {x: 0.22999999, y: -0.17}
+      - {x: 0.26, y: -0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1712409009
 GameObject:
   m_ObjectHideFlags: 0
@@ -10341,11 +12719,11 @@ Transform:
   m_GameObject: {fileID: 1712409009}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.1055341, y: 0.2249875, z: 0}
+  m_LocalPosition: {x: -0.07446587, y: -1.3350124, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 870024612}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1712409011
 SpriteRenderer:
@@ -10556,7 +12934,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1779375226}
   - component: {fileID: 1779375225}
-  m_Layer: 8
+  - component: {fileID: 1779375227}
+  m_Layer: 3
   m_Name: bakery_26_12 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10623,13 +13002,72 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1779375224}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.2799997, y: 0.81, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.2894, y: -1.3300002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1779375227
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779375224}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.56, y: 0.56}
+    newSize: {x: 0.56, y: 0.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.25, y: 0.01}
+      - {x: 0.28, y: 0.049999997}
+      - {x: 0.28, y: 0.19}
+      - {x: 0.25, y: 0.22999999}
+      - {x: 0.19999999, y: 0.28}
+      - {x: -0.22, y: 0.28}
+      - {x: -0.28, y: 0.22}
+      - {x: -0.28, y: -0.14999999}
+      - {x: -0.26, y: -0.19999999}
+      - {x: -0.22999999, y: -0.25}
+      - {x: -0.19999999, y: -0.28}
+      - {x: -0.06, y: -0.28}
+      - {x: -0.02, y: -0.24}
+      - {x: 0.049999997, y: -0.19}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1791741883
 GameObject:
   m_ObjectHideFlags: 0
@@ -10640,7 +13078,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1791741885}
   - component: {fileID: 1791741884}
-  m_Layer: 8
+  - component: {fileID: 1791741886}
+  m_Layer: 3
   m_Name: bakery_25_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10707,11 +13146,105 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791741883}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.49, y: 2.31, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.4805996, y: 0.16999984, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 269365661}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1791741886
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791741883}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.56}
+    newSize: {x: 0.64, y: 0.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.32, y: 0.13}
+      - {x: 0.31, y: 0.17}
+      - {x: 0.21, y: 0.26}
+      - {x: 0.16, y: 0.28}
+      - {x: -0.19, y: 0.28}
+      - {x: -0.31, y: 0.17}
+      - {x: -0.32, y: 0.14}
+      - {x: -0.32, y: -0.17999999}
+      - {x: -0.24, y: -0.26}
+      - {x: -0.19, y: -0.28}
+      - {x: 0.13, y: -0.28}
+      - {x: 0.21, y: -0.26}
+      - {x: 0.29, y: -0.19}
+      - {x: 0.32, y: -0.14999999}
+  m_UseDelaunayMesh: 0
+--- !u!1 &1830173482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1830173483}
+  m_Layer: 0
+  m_Name: InteractiveObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1830173483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830173482}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.009400368, y: 2.14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 269365661}
+  - {fileID: 1958976713}
+  - {fileID: 1279336169}
+  - {fileID: 1346585621}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1845118811
@@ -10808,7 +13341,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1861015267}
   - component: {fileID: 1861015268}
-  m_Layer: 8
+  - component: {fileID: 1861015269}
+  m_Layer: 3
   m_Name: bakery_26_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10824,11 +13358,11 @@ Transform:
   m_GameObject: {fileID: 1861015266}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.96614504, y: 0.8843031, z: 0}
+  m_LocalPosition: {x: -0.22325528, y: -2.815697, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 870024612}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1861015268
 SpriteRenderer:
@@ -10882,6 +13416,67 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1861015269
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861015266}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.6, y: 0.6}
+    newSize: {x: 0.6, y: 0.6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26999998, y: -0.01}
+      - {x: 0.29999998, y: 0.02}
+      - {x: 0.29999998, y: 0.21}
+      - {x: 0.26999998, y: 0.25}
+      - {x: 0.22, y: 0.29999998}
+      - {x: -0.11, y: 0.29999998}
+      - {x: -0.14999999, y: 0.29}
+      - {x: -0.28, y: 0.14999999}
+      - {x: -0.29999998, y: 0.07}
+      - {x: -0.29999998, y: -0.16}
+      - {x: -0.17999999, y: -0.28}
+      - {x: -0.13, y: -0.29999998}
+      - {x: 0.08, y: -0.29999998}
+      - {x: 0.16, y: -0.22}
+      - {x: 0.17, y: -0.089999996}
+      - {x: 0.17, y: -0.03}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1880838507
 GameObject:
   m_ObjectHideFlags: 0
@@ -10892,7 +13487,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1880838509}
   - component: {fileID: 1880838508}
-  m_Layer: 8
+  - component: {fileID: 1880838510}
+  m_Layer: 3
   m_Name: bakery_26_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10959,13 +13555,73 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880838507}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.18, y: -1.2, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.1894, y: -3.3400002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1880838510
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880838507}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.52}
+    newSize: {x: 0.52, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26, y: 0.11}
+      - {x: 0.25, y: 0.14999999}
+      - {x: 0.14999999, y: 0.24}
+      - {x: 0.099999994, y: 0.26}
+      - {x: -0.099999994, y: 0.26}
+      - {x: -0.14999999, y: 0.25}
+      - {x: -0.21, y: 0.19}
+      - {x: -0.26, y: 0.12}
+      - {x: -0.26, y: -0.14999999}
+      - {x: -0.19, y: -0.21}
+      - {x: -0.11, y: -0.26}
+      - {x: 0.099999994, y: -0.26}
+      - {x: 0.14999999, y: -0.24}
+      - {x: 0.22999999, y: -0.17}
+      - {x: 0.26, y: -0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1899033199
 GameObject:
   m_ObjectHideFlags: 0
@@ -10977,7 +13633,7 @@ GameObject:
   - component: {fileID: 1899033201}
   - component: {fileID: 1899033200}
   m_Layer: 8
-  m_Name: bakery_3
+  m_Name: WallMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11043,12 +13699,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1899033199}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.21, y: 3.88, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1902883946
 GameObject:
@@ -11192,7 +13848,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 9
   m_Sprite: {fileID: 21300000, guid: b3a03b24b2ee6584fa9f554c3186c1fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11212,12 +13868,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1904214076}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.62, y: -4.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1904214079
 BoxCollider2D:
@@ -11290,11 +13946,11 @@ Transform:
   m_GameObject: {fileID: 1925937527}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0284513, y: 0.6188102, z: 0}
+  m_LocalPosition: {x: -0.15154862, y: -0.94118977, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 870024612}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1925937529
 SpriteRenderer:
@@ -11358,8 +14014,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1941522853}
   - component: {fileID: 1941522852}
-  m_Layer: 0
-  m_Name: bakery_26_14 (6)
+  - component: {fileID: 1941522854}
+  m_Layer: 3
+  m_Name: morningbread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11425,13 +14082,67 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1941522851}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.3, y: -4.2, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.3094003, y: -6.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1941522854
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941522851}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.44}
+    newSize: {x: 0.52, y: 0.44}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.17, y: 0.22}
+      - {x: -0.19, y: 0.21}
+      - {x: -0.26, y: 0.13}
+      - {x: -0.26, y: -0.17}
+      - {x: -0.24, y: -0.22}
+      - {x: 0.24, y: -0.22}
+      - {x: 0.26, y: -0.19999999}
+      - {x: 0.26, y: 0.17}
+      - {x: 0.19999999, y: 0.22}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1954698885
 GameObject:
   m_ObjectHideFlags: 0
@@ -11510,12 +14221,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954698885}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5999998, y: 1.66, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1954698888
 BoxCollider2D:
@@ -11644,7 +14355,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1958976712
 GameObject:
@@ -11656,8 +14367,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1958976713}
   - component: {fileID: 1958976714}
+  - component: {fileID: 1958976715}
   m_Layer: 3
-  m_Name: bakery_26_7
+  m_Name: HeartBread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11672,11 +14384,11 @@ Transform:
   m_GameObject: {fileID: 1958976712}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.97999996, z: 0}
+  m_LocalPosition: {x: -1.1894003, y: -2.72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 870024612}
+  m_Father: {fileID: 1830173483}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1958976714
 SpriteRenderer:
@@ -11730,6 +14442,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &1958976715
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958976712}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.72, y: 0.56}
+  m_Direction: 0
 --- !u!1 &1965359673
 GameObject:
   m_ObjectHideFlags: 0
@@ -11740,7 +14487,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1965359675}
   - component: {fileID: 1965359674}
-  m_Layer: 8
+  - component: {fileID: 1965359676}
+  m_Layer: 3
   m_Name: bakery_26_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11807,13 +14555,73 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965359673}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.5599995, y: -1.22, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.5694, y: -3.3600001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1965359676
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965359673}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.52}
+    newSize: {x: 0.52, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26, y: 0.11}
+      - {x: 0.25, y: 0.14999999}
+      - {x: 0.14999999, y: 0.24}
+      - {x: 0.099999994, y: 0.26}
+      - {x: -0.099999994, y: 0.26}
+      - {x: -0.14999999, y: 0.25}
+      - {x: -0.21, y: 0.19}
+      - {x: -0.26, y: 0.12}
+      - {x: -0.26, y: -0.14999999}
+      - {x: -0.19, y: -0.21}
+      - {x: -0.11, y: -0.26}
+      - {x: 0.099999994, y: -0.26}
+      - {x: 0.14999999, y: -0.24}
+      - {x: 0.22999999, y: -0.17}
+      - {x: 0.26, y: -0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1976877697
 GameObject:
   m_ObjectHideFlags: 0
@@ -11824,7 +14632,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1976877699}
   - component: {fileID: 1976877698}
-  m_Layer: 8
+  - component: {fileID: 1976877700}
+  m_Layer: 3
   m_Name: bakery_26_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11891,13 +14700,69 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976877697}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.72, y: 1.76, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.7105994, y: -0.3800001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1976877700
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976877697}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.48, y: 0.36}
+    newSize: {x: 0.48, y: 0.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.24, y: 0.12}
+      - {x: 0.17999999, y: 0.17999999}
+      - {x: -0.099999994, y: 0.17999999}
+      - {x: -0.17999999, y: 0.14999999}
+      - {x: -0.24, y: 0.06}
+      - {x: -0.24, y: -0.13}
+      - {x: -0.22, y: -0.17999999}
+      - {x: 0.06, y: -0.17999999}
+      - {x: 0.089999996, y: -0.16}
+      - {x: 0.17, y: -0.089999996}
+      - {x: 0.24, y: -0.01}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1993100547
 GameObject:
   m_ObjectHideFlags: 0
@@ -11908,7 +14773,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1993100549}
   - component: {fileID: 1993100548}
-  m_Layer: 8
+  - component: {fileID: 1993100550}
+  m_Layer: 3
   m_Name: bakery_26_9 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11975,13 +14841,73 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993100547}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.79, y: -1.22, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.7994003, y: -3.3600001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1993100550
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993100547}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.52}
+    newSize: {x: 0.52, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26, y: 0.11}
+      - {x: 0.25, y: 0.14999999}
+      - {x: 0.14999999, y: 0.24}
+      - {x: 0.099999994, y: 0.26}
+      - {x: -0.099999994, y: 0.26}
+      - {x: -0.14999999, y: 0.25}
+      - {x: -0.21, y: 0.19}
+      - {x: -0.26, y: 0.12}
+      - {x: -0.26, y: -0.14999999}
+      - {x: -0.19, y: -0.21}
+      - {x: -0.11, y: -0.26}
+      - {x: 0.099999994, y: -0.26}
+      - {x: 0.14999999, y: -0.24}
+      - {x: 0.22999999, y: -0.17}
+      - {x: 0.26, y: -0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1995681768
 GameObject:
   m_ObjectHideFlags: 0
@@ -11992,7 +14918,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1995681770}
   - component: {fileID: 1995681769}
-  m_Layer: 8
+  - component: {fileID: 1995681771}
+  m_Layer: 3
   m_Name: bakery_26_13 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12059,13 +14986,67 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995681768}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.2599998, y: 0.252935, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.2694001, y: -1.8870652, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1995681771
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995681768}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.48, y: 0.36}
+    newSize: {x: 0.48, y: 0.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.14, y: 0.17999999}
+      - {x: -0.17999999, y: 0.17999999}
+      - {x: -0.24, y: 0.099999994}
+      - {x: -0.24, y: -0.13}
+      - {x: -0.22, y: -0.17999999}
+      - {x: 0.21, y: -0.17999999}
+      - {x: 0.24, y: -0.13}
+      - {x: 0.24, y: 0.099999994}
+      - {x: 0.17, y: 0.17}
+  m_UseDelaunayMesh: 0
 --- !u!1 &2027774993
 GameObject:
   m_ObjectHideFlags: 0
@@ -12123,7 +15104,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 31c7ddc82f3e00e40a95ecd3f6d6ce29, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12143,12 +15124,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2027774993}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.5709999, y: -4.029, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1076068305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2033572023
 GameObject:
@@ -12160,8 +15141,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2033572025}
   - component: {fileID: 2033572024}
-  m_Layer: 8
-  m_Name: bakery_26_2 (3)
+  - component: {fileID: 2033572026}
+  m_Layer: 3
+  m_Name: jamcookie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12227,13 +15209,65 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2033572023}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.8200002, y: 2.07, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.8105998, y: -0.07000017, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &2033572026
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033572023}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.4, y: 0.32}
+    newSize: {x: 0.4, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.14, y: 0.16}
+      - {x: -0.14999999, y: 0.16}
+      - {x: -0.19999999, y: 0.13}
+      - {x: -0.19999999, y: -0.16}
+      - {x: 0.17, y: -0.16}
+      - {x: 0.19999999, y: -0.11}
+      - {x: 0.19999999, y: 0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &2034787555
 GameObject:
   m_ObjectHideFlags: 0
@@ -12311,8 +15345,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2061222711}
   - component: {fileID: 2061222710}
-  m_Layer: 0
-  m_Name: bakery_26_14 (5)
+  - component: {fileID: 2061222712}
+  m_Layer: 3
+  m_Name: morningbread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12378,13 +15413,67 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061222709}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.79, y: -3.88, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.7994004, y: -6.0200005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &2061222712
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061222709}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.44}
+    newSize: {x: 0.52, y: 0.44}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.17, y: 0.22}
+      - {x: -0.19, y: 0.21}
+      - {x: -0.26, y: 0.13}
+      - {x: -0.26, y: -0.17}
+      - {x: -0.24, y: -0.22}
+      - {x: 0.24, y: -0.22}
+      - {x: 0.26, y: -0.19999999}
+      - {x: 0.26, y: 0.17}
+      - {x: 0.19999999, y: 0.22}
+  m_UseDelaunayMesh: 0
 --- !u!1 &2061736109
 GameObject:
   m_ObjectHideFlags: 0
@@ -12395,7 +15484,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2061736111}
   - component: {fileID: 2061736110}
-  m_Layer: 8
+  - component: {fileID: 2061736112}
+  m_Layer: 3
   m_Name: bakery_26_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12462,13 +15552,65 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061736109}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.09369898, y: 2.2853267, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.08429861, y: 0.14532661, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &2061736112
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061736109}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.4, y: 0.32}
+    newSize: {x: 0.4, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.14, y: 0.16}
+      - {x: -0.14999999, y: 0.16}
+      - {x: -0.19999999, y: 0.13}
+      - {x: -0.19999999, y: -0.16}
+      - {x: 0.17, y: -0.16}
+      - {x: 0.19999999, y: -0.11}
+      - {x: 0.19999999, y: 0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &2083614516
 GameObject:
   m_ObjectHideFlags: 0
@@ -12479,7 +15621,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2083614518}
   - component: {fileID: 2083614517}
-  m_Layer: 8
+  - component: {fileID: 2083614519}
+  m_Layer: 3
   m_Name: bakery_26_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12546,13 +15689,65 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083614516}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2022562, y: 2.3667448, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.19285583, y: 0.22674465, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &2083614519
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083614516}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.4, y: 0.32}
+    newSize: {x: 0.4, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.14, y: 0.16}
+      - {x: -0.14999999, y: 0.16}
+      - {x: -0.19999999, y: 0.13}
+      - {x: -0.19999999, y: -0.16}
+      - {x: 0.17, y: -0.16}
+      - {x: 0.19999999, y: -0.11}
+      - {x: 0.19999999, y: 0.099999994}
+  m_UseDelaunayMesh: 0
 --- !u!1 &2087093791
 GameObject:
   m_ObjectHideFlags: 0
@@ -12563,7 +15758,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2087093793}
   - component: {fileID: 2087093792}
-  m_Layer: 8
+  - component: {fileID: 2087093794}
+  m_Layer: 3
   m_Name: bakery_26_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12630,13 +15826,66 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087093791}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.86915123, y: 1.1583891, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.8785516, y: -0.981611, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &2087093794
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087093791}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.32}
+    newSize: {x: 0.28, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.08, y: 0.16}
+      - {x: -0.14, y: 0.099999994}
+      - {x: -0.14, y: -0.11}
+      - {x: -0.11, y: -0.16}
+      - {x: 0.12, y: -0.16}
+      - {x: 0.14, y: -0.14}
+      - {x: 0.14, y: 0.12}
+      - {x: 0.12, y: 0.16}
+  m_UseDelaunayMesh: 0
 --- !u!1 &2089820020
 GameObject:
   m_ObjectHideFlags: 0
@@ -12647,7 +15896,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2089820021}
   - component: {fileID: 2089820022}
-  m_Layer: 8
+  - component: {fileID: 2089820023}
+  m_Layer: 3
   m_Name: bakery_25_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12663,11 +15913,11 @@ Transform:
   m_GameObject: {fileID: 2089820020}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.49, z: 0}
+  m_LocalPosition: {x: 0.9005996, y: -2.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 918128407}
+  m_Father: {fileID: 269365661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2089820022
 SpriteRenderer:
@@ -12721,6 +15971,86 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &2089820023
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089820020}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.12, y: 1.2}
+    newSize: {x: 1.12, y: 1.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.25, y: -0.59}
+      - {x: 0.39, y: -0.45}
+      - {x: 0.5, y: -0.21}
+      - {x: 0.53999996, y: -0.08}
+      - {x: 0.56, y: 0.03}
+      - {x: 0.56, y: 0.24}
+      - {x: 0.55, y: 0.29}
+      - {x: 0.48999998, y: 0.35}
+      - {x: 0.25, y: 0.35}
+      - {x: 0.19999999, y: 0.38}
+      - {x: 0.03, y: 0.39}
+      - {x: -0.049999997, y: 0.35999998}
+      - {x: -0.11, y: 0.29999998}
+      - {x: -0.13, y: 0.37}
+      - {x: -0.21, y: 0.53}
+      - {x: -0.26999998, y: 0.59}
+      - {x: -0.32, y: 0.59999996}
+      - {x: -0.45999998, y: 0.59999996}
+      - {x: -0.53999996, y: 0.52}
+      - {x: -0.56, y: 0.44}
+      - {x: -0.56, y: 0.049999997}
+      - {x: -0.55, y: -0.049999997}
+      - {x: -0.51, y: -0.07}
+      - {x: -0.5, y: -0.19999999}
+      - {x: -0.47, y: -0.25}
+      - {x: -0.41, y: -0.31}
+      - {x: -0.38, y: -0.29999998}
+      - {x: -0.38, y: -0.53}
+      - {x: -0.32, y: -0.59999996}
+      - {x: 0.19999999, y: -0.59999996}
+  m_UseDelaunayMesh: 0
+--- !u!4 &2089827190 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5394292379199530646, guid: de91efbcb9f364d6892d224e75743f10, type: 3}
+  m_PrefabInstance: {fileID: 1141969986}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2119353025
 GameObject:
   m_ObjectHideFlags: 0
@@ -12810,88 +16140,9 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 59727130}
-  - {fileID: 869408782}
-  - {fileID: 647532920}
   - {fileID: 1416397069}
-  - {fileID: 389804734}
-  - {fileID: 1151728858}
-  - {fileID: 1954698887}
-  - {fileID: 1331483988}
-  - {fileID: 1376535424}
-  - {fileID: 848150708}
-  - {fileID: 893012720}
-  - {fileID: 482357694}
-  - {fileID: 1434889467}
-  - {fileID: 395449433}
-  - {fileID: 1212949475}
-  - {fileID: 780988527}
-  - {fileID: 1496542386}
-  - {fileID: 847097746}
-  - {fileID: 2061736111}
-  - {fileID: 2083614518}
-  - {fileID: 1130698769}
-  - {fileID: 2087093793}
-  - {fileID: 267465909}
-  - {fileID: 1460477141}
-  - {fileID: 311801123}
-  - {fileID: 882442119}
-  - {fileID: 1565568665}
-  - {fileID: 527128264}
-  - {fileID: 227895250}
-  - {fileID: 918283077}
-  - {fileID: 32010816}
-  - {fileID: 1779375226}
-  - {fileID: 1131355973}
-  - {fileID: 1494080823}
-  - {fileID: 1995681770}
-  - {fileID: 1180562054}
-  - {fileID: 586617336}
-  - {fileID: 1304186304}
-  - {fileID: 960572398}
-  - {fileID: 1958875543}
-  - {fileID: 732467616}
-  - {fileID: 466479236}
-  - {fileID: 945730061}
-  - {fileID: 1706508368}
-  - {fileID: 1269792588}
-  - {fileID: 1595901441}
-  - {fileID: 1965359675}
-  - {fileID: 41257075}
-  - {fileID: 1993100549}
-  - {fileID: 1880838509}
-  - {fileID: 604661181}
-  - {fileID: 322760239}
-  - {fileID: 1657570218}
-  - {fileID: 921457958}
-  - {fileID: 620904571}
-  - {fileID: 1904214078}
-  - {fileID: 1457885644}
-  - {fileID: 1276316919}
-  - {fileID: 2027774995}
-  - {fileID: 81946676}
-  - {fileID: 962883304}
-  - {fileID: 1532096751}
-  - {fileID: 284539762}
-  - {fileID: 1007754612}
-  - {fileID: 901984635}
-  - {fileID: 870024612}
-  - {fileID: 1510264616}
-  - {fileID: 1791741885}
-  - {fileID: 970506957}
-  - {fileID: 890099239}
-  - {fileID: 1655331497}
-  - {fileID: 1976877699}
-  - {fileID: 58850070}
-  - {fileID: 2033572025}
-  - {fileID: 618031077}
-  - {fileID: 1899033201}
-  - {fileID: 278743673}
-  - {fileID: 1683652793}
-  - {fileID: 2061222711}
-  - {fileID: 1941522853}
-  - {fileID: 122533120}
-  - {fileID: 579306252}
-  - {fileID: 1141969986}
-  - {fileID: 455928278}
+  - {fileID: 1076068305}
+  - {fileID: 1830173483}
+  - {fileID: 1549671629}
   - {fileID: 396168947}
   - {fileID: 1771756333}

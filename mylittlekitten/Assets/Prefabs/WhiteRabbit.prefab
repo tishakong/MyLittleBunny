@@ -133,9 +133,9 @@ MonoBehaviour:
   runSpeed: 0.01
   layerMask:
     serializedVersion: 2
-    m_Bits: 384
+    m_Bits: 960
   raycastLength: 0.5
-  fishing: 0
+  fishing: 1
 --- !u!50 &2068149906795414725
 Rigidbody2D:
   serializedVersion: 4
@@ -269,10 +269,12 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 8
-  raycastLength: 0.5
-  actionable: 0
+  raycastLength: 2.2
+  getable: 0
   hitObject: {fileID: 0}
   getBreadMotion: {fileID: 0}
+  breadcount: 0
+  breadheight: 0
 --- !u!114 &1127586818178145536
 MonoBehaviour:
   m_ObjectHideFlags: 0
