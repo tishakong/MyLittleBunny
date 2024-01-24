@@ -13,6 +13,9 @@ EditorBuildSettings:
     guid: c325101ff8472e44d9470106b6da98cd
   - enabled: 1
     path: Assets/Scenes/MainMap.unity
+    guid: 8919e27521b998a4fa10a2c980549641
+  - enabled: 1
+    path: Assets/Scenes/MainMap3.unity
     guid: fea3d39483aa5a24cbf259970247d7d4
   - enabled: 1
     path: Assets/Scenes/BakeryShop.unity
