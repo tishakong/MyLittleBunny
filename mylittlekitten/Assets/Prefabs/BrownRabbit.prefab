@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 2837906078730273868}
   - component: {fileID: -6410690224728617740}
   - component: {fileID: 4679953473006261993}
+  - component: {fileID: -4522570670185136310}
   m_Layer: 30
   m_Name: BrownRabbit
   m_TagString: Untagged
@@ -135,7 +136,7 @@ MonoBehaviour:
   runSpeed: 0.01
   layerMask:
     serializedVersion: 2
-    m_Bits: 384
+    m_Bits: 1073745792
   raycastLength: 0.5
   fishing: 0
 --- !u!50 &1818951884973415383
@@ -478,3 +479,22 @@ MonoBehaviour:
   ADHarvest: {fileID: 8300000, guid: 3c2b3244308f04549af38a7c412ba064, type: 3}
   ADGetBread: {fileID: 8300000, guid: 844b6ef7938b6f74d841164272a9859b, type: 3}
   audioSource: {fileID: 0}
+--- !u!114 &-4522570670185136310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6083915006487832443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603b3091c56614c5b9e02c89f2142115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  raycastLength: 2
+  openable: 0
+  hitObject: {fileID: 0}
+  openingMotion: {fileID: 2055102311959635369, guid: 17b0c1ef334d17e4bbb74c4778001705, type: 3}

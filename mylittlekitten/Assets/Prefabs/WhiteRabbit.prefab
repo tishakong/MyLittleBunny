@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 1072767899199316672}
   - component: {fileID: 7364972512324233342}
   - component: {fileID: -8170570414787363166}
+  - component: {fileID: 5109938676991115186}
   m_Layer: 30
   m_Name: WhiteRabbit
   m_TagString: Untagged
@@ -135,7 +136,7 @@ MonoBehaviour:
   runSpeed: 0.01
   layerMask:
     serializedVersion: 2
-    m_Bits: 960
+    m_Bits: 1073745856
   raycastLength: 0.5
   fishing: 1
 --- !u!50 &2068149906795414725
@@ -478,3 +479,22 @@ MonoBehaviour:
   raycastLength: 2
   hitObject: {fileID: 0}
   buysuccess: {fileID: 5052347512528711513, guid: 8e0a6d653372d0842870445b7e1ec92a, type: 3}
+--- !u!114 &5109938676991115186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701674944541691363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603b3091c56614c5b9e02c89f2142115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  raycastLength: 2
+  openable: 0
+  hitObject: {fileID: 0}
+  openingMotion: {fileID: 2055102311959635369, guid: 17b0c1ef334d17e4bbb74c4778001705, type: 3}

@@ -136,7 +136,7 @@ MonoBehaviour:
   runSpeed: 0.01
   layerMask:
     serializedVersion: 2
-    m_Bits: 384
+    m_Bits: 1073745792
   raycastLength: 0.5
   fishing: 0
 --- !u!50 &-3770915761974437922
