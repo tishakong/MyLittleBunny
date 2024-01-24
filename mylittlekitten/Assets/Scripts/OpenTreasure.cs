@@ -68,6 +68,11 @@ public class OpenTreasure : MonoBehaviour
 
         GameObject newObject = Instantiate(openingMotion, openingVector, hitObject.transform.rotation);
 
+        if (newObject.GetComponent<SpriteRenderer>() != null)
+        {
+            newObject.GetComponent<SpriteRenderer>().sortingOrder = 1;
+        }
+
         yield return new WaitForSeconds(2.0f); 
     }
 }
