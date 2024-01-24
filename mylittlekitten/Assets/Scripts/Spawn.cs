@@ -42,6 +42,10 @@ public class Spawn : MonoBehaviour
             {
                 player.transform.position = new Vector3(13, 5, 0);
             }
+            else if (previousScene == "Store")
+            {
+                player.transform.position = new Vector3(-18.6f, -9, 0);
+            }
 
             GameObject mainCamera = Camera.main.gameObject;
             mainCamera.transform.parent = player.transform;

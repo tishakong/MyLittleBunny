@@ -63,9 +63,23 @@ public class SellItem : MonoBehaviour
     }
     void SellMotion()
     {
+
         //carrot fish 에 따라 coin 팔기
-        StartCoroutine(SellSuccess());
-        audioManager.PlaySound("BuySuccess");
+        if(DataManager.Instance.myFish==0 && DataManager.Instance.myCarrot==0)
+        {
+            //당근과 물고기가 없는 상태임 못 판다 표시해줘야함
+        }
+        else
+        {
+            DataManager.Instance.myCoin += DataManager.Instance.myFish*2;
+            DataManager.Instance.myCoin += DataManager.Instance.myCarrot*5;
+            DataManager.Instance.myCarrot = 0;
+            DataManager.Instance.myFish = 0;
+
+            StartCoroutine(SellSuccess());
+            audioManager.PlaySound("BuySuccess");
+            print("현재 myCoin :"+DataManager.Instance.myCoin);
+        }
     }
 
     IEnumerator SellSuccess()

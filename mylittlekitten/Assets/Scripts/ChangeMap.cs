@@ -42,6 +42,10 @@ public class ChangeMap : MonoBehaviour
             {
                 SceneManager.LoadScene("cafe_black_ver");
             }
+            else if (other.name == "StorePoint")
+            {
+                SceneManager.LoadScene("Store");
+            }
         }
 
         if (other.gameObject.CompareTag("ToOutside"))

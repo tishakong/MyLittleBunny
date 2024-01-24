@@ -15,7 +15,6 @@ public class  HarvestCarrot : MonoBehaviour
     public bool harvestStart;
     public GameObject hitObject;
     public GameObject harvestMotion;
-    public int harvestCount;
     public TextMeshProUGUI progressText;
     public int clickCount;
     AudioManager audioManager;
@@ -37,7 +36,6 @@ public class  HarvestCarrot : MonoBehaviour
             progressText = harvestProgressObject.GetComponent<TextMeshProUGUI>();
             progressText.gameObject.SetActive(false);
         }
-        harvestCount = 0;
     }
 
     private void Update()
@@ -77,16 +75,7 @@ public class  HarvestCarrot : MonoBehaviour
         if (harvestable && Input.GetKeyDown(KeyCode.Z))
         {
             clickCount = 0;
-            if(harvestCount>23){
-                Debug.LogError("Limit!");
-                progressText.gameObject.SetActive(true);
-                progressText.text = "No More Carrot!";
-            }
-            else
-            {
-                harvestStart = true;
-            }
-            
+            harvestStart = true;
         }
 
         if (harvestStart)
@@ -106,26 +95,22 @@ public class  HarvestCarrot : MonoBehaviour
             {
                 audioManager.PlaySound("Harvest");
 
-                harvestCount++;
+                DataManager.Instance.myCarrot++;
                 Destroy(hitObject);
 
                 progressText.text = "0%";
                 harvestStart=false;
                 progressText.gameObject.SetActive(false);
                 
-                Vector3 harvestVector = new Vector3(33f, 6f+0.5f*(harvestCount-1), transform.position.z);
+                Vector3 harvestVector = new Vector3(33f, 6f+0.5f*(DataManager.Instance.myCarrot - 1), transform.position.z);
                 Quaternion carrotRotation = Quaternion.Euler(0f, 0f, 300f);
 
                 GameObject newObject = Instantiate(harvestMotion, harvestVector, carrotRotation);
+                print("myCarrot : " + DataManager.Instance.myCarrot);
 
                 harvestable = false;
             }
         }
-        else
-        {
-
-        }
-        
     }
 }
 

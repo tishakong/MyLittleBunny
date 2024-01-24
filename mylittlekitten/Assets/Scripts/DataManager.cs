@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public enum Character
 {
     WhiteRabbit, BlackRabbit, BrownRabbit
@@ -10,7 +9,11 @@ public enum Character
 
 public class DataManager : MonoBehaviour
 {
+    public int myCarrot; //당근1개에 코인 5개
+    public int myFish; //물고기1마리에 코인 2개
+    public int myCoin;
     public static DataManager Instance;
+    public Character currentCharacter;
 
     private void Awake()
     {
@@ -19,6 +22,12 @@ public class DataManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    public Character currentCharacter;
+    private void Start()
+    {
+        myCarrot = 0;
+        myFish = 0;
+        myCoin = 0;
+    }
+
 
 }
