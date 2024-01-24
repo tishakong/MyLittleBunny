@@ -661,7 +661,7 @@ GameObject:
   - component: {fileID: 94037709}
   - component: {fileID: 94037711}
   - component: {fileID: 94037710}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42474,8 +42474,8 @@ Tilemap:
   - first: {x: 21, y: 0, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -42484,8 +42484,8 @@ Tilemap:
   - first: {x: 22, y: 0, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -42494,8 +42494,8 @@ Tilemap:
   - first: {x: 23, y: 0, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -42504,8 +42504,8 @@ Tilemap:
   - first: {x: 24, y: 0, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -42514,8 +42514,8 @@ Tilemap:
   - first: {x: 25, y: 0, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -42524,8 +42524,8 @@ Tilemap:
   - first: {x: 26, y: 0, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -42534,8 +42534,8 @@ Tilemap:
   - first: {x: 27, y: 0, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -43534,8 +43534,8 @@ Tilemap:
   - first: {x: 27, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -44534,8 +44534,8 @@ Tilemap:
   - first: {x: 27, y: 2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -45534,8 +45534,8 @@ Tilemap:
   - first: {x: 27, y: 3, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -46534,8 +46534,8 @@ Tilemap:
   - first: {x: 27, y: 4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -70873,9 +70873,9 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 159
+  - m_RefCount: 170
     m_Data: {fileID: 11400000, guid: a16fbadbd3da42745af20093ac0d5f09, type: 2}
-  - m_RefCount: 6733
+  - m_RefCount: 6722
     m_Data: {fileID: 11400000, guid: 8df9b16c6f2b4964db5571569bde6887, type: 2}
   - m_RefCount: 21
     m_Data: {fileID: 11400000, guid: 1862b9a7e27f9274ea5d3356100ee995, type: 2}
@@ -70914,9 +70914,9 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   m_TileSpriteArray:
-  - m_RefCount: 159
+  - m_RefCount: 170
     m_Data: {fileID: 7477827516038983822, guid: dc747d0a3cdf6594f9f275fdd2a48b4b, type: 3}
-  - m_RefCount: 6733
+  - m_RefCount: 6722
     m_Data: {fileID: 1561205615984820651, guid: dc747d0a3cdf6594f9f275fdd2a48b4b, type: 3}
   - m_RefCount: 21
     m_Data: {fileID: 4099902767569298868, guid: dc747d0a3cdf6594f9f275fdd2a48b4b, type: 3}
@@ -71983,7 +71983,7 @@ GameObject:
   - component: {fileID: 217093907}
   - component: {fileID: 217093909}
   - component: {fileID: 217093908}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72113,7 +72113,7 @@ GameObject:
   - component: {fileID: 232438123}
   - component: {fileID: 232438125}
   - component: {fileID: 232438124}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90458,7 +90458,7 @@ GameObject:
   - component: {fileID: 522740992}
   - component: {fileID: 522740994}
   - component: {fileID: 522740993}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91096,7 +91096,7 @@ GameObject:
   - component: {fileID: 633551944}
   - component: {fileID: 633551946}
   - component: {fileID: 633551945}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91299,6 +91299,140 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &646608702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 646608703}
+  - component: {fileID: 646608705}
+  - component: {fileID: 646608704}
+  m_Layer: 5
+  m_Name: HarvestProgress
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &646608703
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646608702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1844909462}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &646608704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646608702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &646608705
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646608702}
+  m_CullTransparentMesh: 1
 --- !u!4 &649374590 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7947911505737750448, guid: ba7fef4c928d8c4459466bf93171730e, type: 3}
@@ -91375,7 +91509,7 @@ GameObject:
   - component: {fileID: 679253908}
   - component: {fileID: 679253910}
   - component: {fileID: 679253909}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92848,7 +92982,7 @@ GameObject:
   - component: {fileID: 826019323}
   - component: {fileID: 826019325}
   - component: {fileID: 826019324}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92978,7 +93112,7 @@ GameObject:
   - component: {fileID: 849032937}
   - component: {fileID: 849032939}
   - component: {fileID: 849032938}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93326,7 +93460,7 @@ GameObject:
   - component: {fileID: 861985760}
   - component: {fileID: 861985762}
   - component: {fileID: 861985761}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93981,7 +94115,7 @@ GameObject:
   - component: {fileID: 927814473}
   - component: {fileID: 927814475}
   - component: {fileID: 927814474}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94597,7 +94731,7 @@ GameObject:
   - component: {fileID: 1046453229}
   - component: {fileID: 1046453231}
   - component: {fileID: 1046453230}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94861,7 +94995,7 @@ GameObject:
   - component: {fileID: 1062694874}
   - component: {fileID: 1062694876}
   - component: {fileID: 1062694875}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95409,7 +95543,7 @@ GameObject:
   - component: {fileID: 1159645524}
   - component: {fileID: 1159645526}
   - component: {fileID: 1159645525}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97373,7 +97507,7 @@ GameObject:
   - component: {fileID: 1352865264}
   - component: {fileID: 1352865266}
   - component: {fileID: 1352865265}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97851,7 +97985,7 @@ GameObject:
   - component: {fileID: 1420959385}
   - component: {fileID: 1420959387}
   - component: {fileID: 1420959386}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99199,7 +99333,7 @@ GameObject:
   - component: {fileID: 1519582067}
   - component: {fileID: 1519582069}
   - component: {fileID: 1519582068}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99774,96 +99908,6 @@ Tilemap:
   m_GameObject: {fileID: 1535825299}
   m_Enabled: 1
   m_Tiles:
-  - first: {x: 21, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 22, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 23, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 24, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 25, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 26, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 26, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 26, y: 3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 26, y: 4, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 25, y: 5, z: 0}
     second:
       serializedVersion: 2
@@ -100218,15 +100262,15 @@ Tilemap:
   m_TileAssetArray:
   - m_RefCount: 35
     m_Data: {fileID: 11400000, guid: 41b8a5fecf80e424f8641235c7649758, type: 2}
-  - m_RefCount: 9
-    m_Data: {fileID: 11400000, guid: a16fbadbd3da42745af20093ac0d5f09, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
   - m_RefCount: 35
     m_Data: {fileID: -7369953315678303813, guid: dc747d0a3cdf6594f9f275fdd2a48b4b, type: 3}
-  - m_RefCount: 9
-    m_Data: {fileID: 7477827516038983822, guid: dc747d0a3cdf6594f9f275fdd2a48b4b, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
-  - m_RefCount: 44
+  - m_RefCount: 35
     m_Data:
       e00: 1
       e01: 0
@@ -100245,7 +100289,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 44
+  - m_RefCount: 35
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -100282,7 +100326,7 @@ GameObject:
   - component: {fileID: 1537933149}
   - component: {fileID: 1537933151}
   - component: {fileID: 1537933150}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100496,7 +100540,7 @@ GameObject:
   - component: {fileID: 1551843513}
   - component: {fileID: 1551843515}
   - component: {fileID: 1551843514}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101123,7 +101167,7 @@ GameObject:
   - component: {fileID: 1673673673}
   - component: {fileID: 1673673675}
   - component: {fileID: 1673673674}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101770,7 +101814,7 @@ GameObject:
   - component: {fileID: 1731707243}
   - component: {fileID: 1731707245}
   - component: {fileID: 1731707244}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102286,7 +102330,7 @@ GameObject:
   - component: {fileID: 1769333599}
   - component: {fileID: 1769333601}
   - component: {fileID: 1769333600}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103268,6 +103312,7 @@ RectTransform:
   - {fileID: 1933345224}
   - {fileID: 1969775983}
   - {fileID: 188016536}
+  - {fileID: 646608703}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -104427,7 +104472,7 @@ GameObject:
   - component: {fileID: 1926453803}
   - component: {fileID: 1926453805}
   - component: {fileID: 1926453804}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105977,7 +106022,7 @@ GameObject:
   - component: {fileID: 2038303932}
   - component: {fileID: 2038303934}
   - component: {fileID: 2038303933}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CarrotGrass (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
