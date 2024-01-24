@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 2926509137881077874}
   - component: {fileID: 8353973579083266197}
   - component: {fileID: 1171898566067754569}
+  - component: {fileID: 3943550560977870508}
   - component: {fileID: 1672644559257183805}
   m_Layer: 30
   m_Name: BlackRabbit
@@ -336,8 +337,9 @@ MonoBehaviour:
   ADWatering: {fileID: 8300000, guid: b70e124dc13fe4041858ca8e9acd12db, type: 3}
   ADFishingStart: {fileID: 8300000, guid: 527475f6491bc59448d4f49146bd9e5b, type: 3}
   ADFishing: {fileID: 8300000, guid: c5bcca98a92e8cb4db0d08d842b11ec5, type: 3}
-  ADBuySuccess: {fileID: 0}
+  ADBuySuccess: {fileID: 8300000, guid: 0f803d5aa0e4d624a8f6baef905f4a8a, type: 3}
   ADHarvest: {fileID: 8300000, guid: 3c2b3244308f04549af38a7c412ba064, type: 3}
+  ADGetBread: {fileID: 8300000, guid: 844b6ef7938b6f74d841164272a9859b, type: 3}
   audioSource: {fileID: 0}
 --- !u!82 &8353973579083266197
 AudioSource:
@@ -459,6 +461,24 @@ MonoBehaviour:
   buysuccess: {fileID: 5052347512528711513, guid: 8e0a6d653372d0842870445b7e1ec92a, type: 3}
   buyfail: {fileID: 5052347512528711513, guid: 2217381b4661fb24a8232b87b6325531, type: 3}
   cantExit: {fileID: 0}
+--- !u!114 &3943550560977870508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972359373685068119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f26add1191820148aea751ca47be709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1073741824
+  raycastLength: 2
+  hitObject: {fileID: 0}
+  buysuccess: {fileID: 5052347512528711513, guid: 8e0a6d653372d0842870445b7e1ec92a, type: 3}
 --- !u!114 &1672644559257183805
 MonoBehaviour:
   m_ObjectHideFlags: 0
