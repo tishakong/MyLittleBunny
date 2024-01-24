@@ -131,14 +131,5 @@ public class CharacterMove : MonoBehaviour
             animator.SetBool("Walking", false);
         }
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Fishing"))
-        {
-            fishing = true;
-            Debug.Log(fishing);
-        }
-    }
 }
  

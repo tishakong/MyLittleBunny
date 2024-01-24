@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 7205615599662717500}
   - component: {fileID: 2926509137881077874}
   - component: {fileID: 8353973579083266197}
+  - component: {fileID: 1171898566067754569}
   m_Layer: 30
   m_Name: BlackRabbit
   m_TagString: Untagged
@@ -407,3 +408,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1171898566067754569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972359373685068119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1472050b5cdc4637bd8e64e7384d6bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  raycastLength: 2.2
+  getable: 0
+  hitObject: {fileID: 0}
+  breadcount: 0
+  breadheight: 0
