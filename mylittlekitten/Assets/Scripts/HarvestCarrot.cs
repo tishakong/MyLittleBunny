@@ -18,8 +18,7 @@ public class  HarvestCarrot : MonoBehaviour
     public int harvestCount;
     public TextMeshProUGUI progressText;
     public int clickCount;
-
-    // AudioManager audioManager;
+    AudioManager audioManager;
 
     void Start()
     {
@@ -29,7 +28,7 @@ public class  HarvestCarrot : MonoBehaviour
         }
 
         capsuleCollider = GetComponent<CapsuleCollider2D>();
-        // audioManager = FindObjectOfType<AudioManager>();
+        audioManager = FindObjectOfType<AudioManager>();
 
         GameObject harvestProgressObject = GameObject.Find("HarvestProgress");
 
@@ -87,7 +86,7 @@ public class  HarvestCarrot : MonoBehaviour
         if (harvestable && Input.GetKeyDown(KeyCode.Z))
         {
             clickCount = 0;
-            if(harvestCount>10){
+            if(harvestCount>23){
                 Debug.LogError("Limit!");
                 progressText.gameObject.SetActive(true);
                 progressText.text = "No More Carrot!";
@@ -95,7 +94,6 @@ public class  HarvestCarrot : MonoBehaviour
             else
             {
                 harvestStart = true;
-                // audioManager.PlaySound("Harvest");
             }
             
         }
@@ -115,24 +113,26 @@ public class  HarvestCarrot : MonoBehaviour
 
             if (clickCount==20)
             {
+                audioManager.PlaySound("Harvest");
+
                 harvestCount++;
                 Destroy(hitObject);
-                
+
                 progressText.text = "0%";
                 harvestStart=false;
                 progressText.gameObject.SetActive(false);
                 
-                Vector3 harvestVector = new Vector3(11.1f, 1.3f+0.2f*(harvestCount-1), transform.position.z);
+                Vector3 harvestVector = new Vector3(33f, 6f+0.5f*(harvestCount-1), transform.position.z);
+                Quaternion carrotRotation = Quaternion.Euler(0f, 0f, 300f);
 
-                GameObject newObject = Instantiate(harvestMotion, harvestVector, transform.rotation);
+                GameObject newObject = Instantiate(harvestMotion, harvestVector, carrotRotation);
+
+                harvestable = false;
             }
         }
         else
         {
-            // if (GameObject.Find("ADFishing"))
-            // {
-            //     Destroy(GameObject.Find("ADFishing"));
-            // }
+
         }
         
     }

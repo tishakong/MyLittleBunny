@@ -316,7 +316,7 @@ MonoBehaviour:
   harvestable: 0
   harvestStart: 0
   hitObject: {fileID: 0}
-  harvestMotion: {fileID: 0}
+  harvestMotion: {fileID: 261172169481783441, guid: b28431228f6974437b32b1c8fc1325b2, type: 3}
   harvestCount: 0
   progressText: {fileID: 0}
   clickCount: 0
@@ -335,6 +335,7 @@ MonoBehaviour:
   ADWatering: {fileID: 8300000, guid: b70e124dc13fe4041858ca8e9acd12db, type: 3}
   ADFishingStart: {fileID: 8300000, guid: 527475f6491bc59448d4f49146bd9e5b, type: 3}
   ADFishing: {fileID: 8300000, guid: c5bcca98a92e8cb4db0d08d842b11ec5, type: 3}
+  ADHarvest: {fileID: 8300000, guid: 3c2b3244308f04549af38a7c412ba064, type: 3}
   audioSource: {fileID: 0}
 --- !u!82 &8353973579083266197
 AudioSource:
