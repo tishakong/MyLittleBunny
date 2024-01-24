@@ -120,18 +120,26 @@ public class GetBread : MonoBehaviour
 
     void BuyMotion()
     {
-        //브래드카운트와 돈 보유량에 따라 하는 buyfail, buysuccess행동 달라지게 하기
-        breadcount = 0; breadheight=0;
-        foreach (Transform child in transform)
+        if (DataManager.Instance.myCoin < breadcount)
         {
-            if (child.name == "BreadMotion")
-            {
-                Destroy(child.gameObject);
-            }
+            //돈이 부족한 상태
+            StartCoroutine(BuyFail());
         }
-        StartCoroutine(BuySuccess());
-        audioManager.PlaySound("BuySuccess");
-        //돈 깎이기
+        else
+        {
+            DataManager.Instance.myCoin -= breadcount;
+            breadcount = 0; breadheight = 0;
+            foreach (Transform child in transform)
+            {
+                if (child.name == "BreadMotion")
+                {
+                    Destroy(child.gameObject);
+                }
+            }
+            StartCoroutine(BuySuccess());
+            audioManager.PlaySound("BuySuccess");
+            print("현재 myCoin"+DataManager.Instance.myCoin);
+        }
     }
 
     IEnumerator BuySuccess()
@@ -144,8 +152,8 @@ public class GetBread : MonoBehaviour
 
     IEnumerator BuyFail()
     {
-        Vector3 wateringVector = new Vector3(-5.8f, 2.6f, 0);
-        GameObject newObject = Instantiate(buyfail, wateringVector, hitObject.transform.rotation);
+        Vector3 spawnVector = new Vector3(-5.8f, 2.6f, 0);
+        GameObject newObject = Instantiate(buyfail, spawnVector, hitObject.transform.rotation);
 
         // 일정 시간 대기
         yield return new WaitForSeconds(2.0f);

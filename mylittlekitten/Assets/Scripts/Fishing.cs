@@ -15,7 +15,6 @@ public class  Fishing : MonoBehaviour
     public bool fishingstart;
     public GameObject hitObject;
     public GameObject fishingMotion;
-    public int fishCount;
     public TextMeshProUGUI progressText;
     public int clickCount;
     AudioManager audioManager;
@@ -37,7 +36,6 @@ public class  Fishing : MonoBehaviour
             progressText = fishingProgressObject.GetComponent<TextMeshProUGUI>();
             progressText.gameObject.SetActive(false);
         }
-        fishCount = 0;
     }
 
     private void Update()
@@ -75,7 +73,7 @@ public class  Fishing : MonoBehaviour
         if (fishingable && Input.GetKeyDown(KeyCode.Z))
         {
             clickCount = 0;
-            if(fishCount>10){
+            if(DataManager.Instance.myFish > 10){
                 Debug.LogError("Limit!");
                 progressText.gameObject.SetActive(true);
                 progressText.text = "No More Fish!";
@@ -104,14 +102,16 @@ public class  Fishing : MonoBehaviour
 
             if (clickCount==20)
             {
-                fishCount++;
+                DataManager.Instance.myFish++;
                 progressText.text = "0%";
                 fishingstart=false;
                 progressText.gameObject.SetActive(false);
                 
-                Vector3 fishingVector = new Vector3(11.1f, 1.3f+0.2f*(fishCount-1), transform.position.z);
+                Vector3 fishingVector = new Vector3(11.1f, 1.3f+0.2f*(DataManager.Instance.myFish - 1), transform.position.z);
 
                 GameObject newObject = Instantiate(fishingMotion, fishingVector, transform.rotation);
+
+                print(DataManager.Instance.myFish);
             }
         }
         else
