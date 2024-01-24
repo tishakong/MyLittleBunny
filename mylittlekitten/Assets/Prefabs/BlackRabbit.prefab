@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 8353973579083266197}
   - component: {fileID: 1171898566067754569}
   - component: {fileID: 1569244288982022418}
+  - component: {fileID: 1672644559257183805}
   m_Layer: 30
   m_Name: BlackRabbit
   m_TagString: Untagged
@@ -130,7 +131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dcc4d5f38f551a428e39d4fca04ac9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.03
+  speed: 0.04
   Movevector: {x: 0, y: 0, z: 0}
   runSpeed: 0.01
   layerMask:
@@ -469,7 +470,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 972359373685068119}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f26add1191820148aea751ca47be709, type: 3}
+  m_Script: {fileID: 11500000, guid: 603b3091c56614c5b9e02c89f2142115, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   layerMask:
@@ -478,3 +479,8 @@ MonoBehaviour:
   raycastLength: 2
   hitObject: {fileID: 0}
   buysuccess: {fileID: 5052347512528711513, guid: 8e0a6d653372d0842870445b7e1ec92a, type: 3}
+    m_Bits: 2048
+  raycastLength: 2
+  openable: 0
+  hitObject: {fileID: 0}
+  openingMotion: {fileID: 2055102311959635369, guid: 17b0c1ef334d17e4bbb74c4778001705, type: 3}
