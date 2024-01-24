@@ -136,7 +136,7 @@ MonoBehaviour:
   runSpeed: 0.01
   layerMask:
     serializedVersion: 2
-    m_Bits: 1073745792
+    m_Bits: 1073749888
   raycastLength: 0.5
   fishing: 0
 --- !u!50 &-3770915761974437922
@@ -296,7 +296,6 @@ MonoBehaviour:
   fishingstart: 0
   hitObject: {fileID: 0}
   fishingMotion: {fileID: 3040932069230826427, guid: 7ea0dee522e864b7189f0cc33ad0c230, type: 3}
-  fishCount: 0
   progressText: {fileID: 0}
   clickCount: 0
 --- !u!114 &9039321140302472628
@@ -319,7 +318,6 @@ MonoBehaviour:
   harvestStart: 0
   hitObject: {fileID: 0}
   harvestMotion: {fileID: 261172169481783441, guid: b28431228f6974437b32b1c8fc1325b2, type: 3}
-  harvestCount: 0
   progressText: {fileID: 0}
   clickCount: 0
 --- !u!114 &2926509137881077874
@@ -494,7 +492,8 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 2048
-  raycastLength: 2
+  raycastLength: 10
   openable: 0
+  getable: 0
   hitObject: {fileID: 0}
-  openingMotion: {fileID: 2055102311959635369, guid: 17b0c1ef334d17e4bbb74c4778001705, type: 3}
+  OpenBoxMotion: {fileID: 2055102311959635369, guid: 17b0c1ef334d17e4bbb74c4778001705, type: 3}
