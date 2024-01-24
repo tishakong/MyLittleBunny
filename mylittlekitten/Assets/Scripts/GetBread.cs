@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Tilemaps;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GetBread : MonoBehaviour
 {
@@ -22,6 +23,11 @@ public class GetBread : MonoBehaviour
 
     void Start()
     {
+        if (SceneManager.GetActiveScene().name != "BakeryShop")
+        {
+            Destroy(this);
+        }
+
         capsuleCollider = GetComponent<CapsuleCollider2D>();
         audioManager = FindObjectOfType<AudioManager>();
         breadcount = 0;
