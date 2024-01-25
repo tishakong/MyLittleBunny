@@ -7,20 +7,23 @@ public class DraggableObject : MonoBehaviour
 {
     private bool isDragging = false;
     private bool isEnter = false;
-    private int originalLayer; // ¿ÀºêÁ§Æ®ÀÇ ¿ø·¡ ·¹ÀÌ¾î ÀúÀå
+    private int originalLayer; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½ï¿½ï¿½
     private Rigidbody2D rb;
-    private Vector2 originalPosition; // ¿ÀºêÁ§Æ®ÀÇ ¿ø·¡ À§Ä¡ ÀúÀå
-    private Vector2 stonetop; // µ¹Å¾ À§Ä¡ ÀúÀå
+    private Vector2 originalPosition; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½
+    private Vector2 stonetop; // ï¿½ï¿½Å¾ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½
     public Sprite backgroundimage;
     private InputField inputField;
     private GameObject canvasObject;
     public GameObject sparkleMotion;
     AudioManager audioManager;
+    CharacterMove characterMove;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         audioManager = FindObjectOfType<AudioManager>();
+        isEnter=false;
+        characterMove = FindObjectOfType<CharacterMove>();
         originalLayer = gameObject.layer;
         originalPosition = transform.position;
         stonetop = new Vector2(-15.87f, -18.69f);
@@ -36,32 +39,35 @@ public class DraggableObject : MonoBehaviour
             if (hitCollider != null && hitCollider.gameObject == gameObject)
             {
                 isDragging = true;
-                // µå·¡±× ½ÃÀÛ ½Ã ·¹ÀÌ¾î º¯°æ
+                // ï¿½å·¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½ï¿½ï¿½
                 gameObject.layer = 31;
             }
+
         }
+        
 
         if (Input.GetMouseButtonUp(0))
         {
+
+                    
             if (isDragging)
             {
                 isDragging = false;
 
-                // ¸¶¿ì½º ¶¾ ÁöÁ¡À» ¿ùµå ÁÂÇ¥·Î º¯È¯
+                // ï¿½ï¿½ï¿½ì½º ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½ï¿½È¯
                 Vector2 releasePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                // ´Ù½Ã ¿ø·¡ ·¹ÀÌ¾î·Î º¯°æ
+                // ï¿½Ù½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
                 gameObject.layer = originalLayer;
 
-                // ¸¸¾à Æ¯Á¤ ¿µ¿ª ¾È¿¡ ¾ø´Ù¸é ¿ø·¡ À§Ä¡·Î µÇµ¹¸®±â
+                // ï¿½ï¿½ï¿½ï¿½ Æ¯ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½È¿ï¿½ ï¿½ï¿½ï¿½Ù¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½Çµï¿½ï¿½ï¿½ï¿½ï¿½
                 if (!IsInResetArea(releasePosition))
                 {
                     transform.position = originalPosition;
                 }
                 else
                 {
-                    // InputField¸¦ »ý¼ºÇÏ°í ¶ç¿ì±â
+                    characterMove.isAction = true;
                     ShowInputField();
-
                 }
             }
         }
@@ -81,32 +87,32 @@ public class DraggableObject : MonoBehaviour
 
     bool IsInResetArea(Vector2 position)
     {
-        // Æ¯Á¤ ¿µ¿ª¿¡ µé¾î°¡¸é true ¹ÝÈ¯
-        // ¿¹½Ã: Æ¯Á¤ ¿µ¿ªÀº ¿øÁ¡À» Áß½ÉÀ¸·Î ¹ÝÁö¸§ÀÌ 1ÀÎ ¿øÀÌ¶ó °¡Á¤
+        // Æ¯ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½î°¡ï¿½ï¿½ true ï¿½ï¿½È¯
+        // ï¿½ï¿½ï¿½ï¿½: Æ¯ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¶ï¿½ ï¿½ï¿½ï¿½ï¿½
         return Vector2.Distance(position, stonetop) <= 0.6f;
     }
 
     void ShowInputField()
     {
-        // »õ·Î¿î Canvas »ý¼º
+        // ï¿½ï¿½ï¿½Î¿ï¿½ Canvas ï¿½ï¿½ï¿½ï¿½
         canvasObject = new GameObject("InputCanvas");
         Canvas canvas = canvasObject.AddComponent<Canvas>();
         canvas.renderMode = RenderMode.ScreenSpaceOverlay;
         canvasObject.AddComponent<CanvasScaler>();
 
-        // Image¸¦ »ý¼º
+        // Imageï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         UnityEngine.UI.Image background = CreateImage(canvas.transform, new Vector2(0f, 0f), backgroundimage);
 
-        // Text¸¦ »ý¼º
+        // Textï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         Text textComponent = CreateText("Enter Your Wish", canvas.transform, new Vector2(0f, 0f), 40, Color.black);
 
-        // InputField »ý¼º ¹× ¼³Á¤
+        // InputField ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         GameObject inputFieldObject = new GameObject("InputField");
         inputFieldObject.transform.SetParent(canvas.transform);
         RectTransform inputFieldRect = inputFieldObject.AddComponent<RectTransform>();
 
-        // Å©±â Á¶Àý
-        inputFieldRect.sizeDelta = new Vector2(1000f, 200f);  // ¿øÇÏ´Â Å©±â·Î Á¶Àý
+        // Å©ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+        inputFieldRect.sizeDelta = new Vector2(1000f, 200f);  // ï¿½ï¿½ï¿½Ï´ï¿½ Å©ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
         inputFieldRect.anchoredPosition = new Vector2(0f, 0f);
 
@@ -121,10 +127,10 @@ public class DraggableObject : MonoBehaviour
         inputField.placeholder = placeholderText;
 
 
-        // InputField¿¡ ´ëÇÑ ÀÌº¥Æ® ¸®½º³Ê Ãß°¡ (¿É¼Ç)
+        // InputFieldï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ (ï¿½É¼ï¿½)
         inputField.onEndEdit.AddListener(HandleInputEnd);
 
-        // InputField¿¡ Æ÷Ä¿½º ¼³Á¤
+        // InputFieldï¿½ï¿½ ï¿½ï¿½Ä¿ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         inputField.ActivateInputField();
         inputField.Select();
         isEnter= true;
@@ -139,19 +145,19 @@ public class DraggableObject : MonoBehaviour
         GameObject textObject = new GameObject("Text");
         textObject.transform.SetParent(parent);
 
-        Text textComponent = textObject.AddComponent<Text>();  // Text ÄÄÆ÷³ÍÆ®¸¦ Ãß°¡
+        Text textComponent = textObject.AddComponent<Text>();  // Text ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ß°ï¿½
 
         RectTransform textRect = textObject.GetComponent<RectTransform>();
-        textRect.sizeDelta = new Vector2(1000f, 200f);  // ¿øÇÏ´Â Å©±â·Î Á¶Àý
+        textRect.sizeDelta = new Vector2(1000f, 200f);  // ï¿½ï¿½ï¿½Ï´ï¿½ Å©ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         textRect.anchoredPosition = anchoredPosition;
 
         textComponent.text = text;
         textComponent.font = Resources.Load<Font>("Fonts/KOTRAHOPE");
-        textComponent.fontSize = fontSize;  // ¿øÇÏ´Â ±Û¾¾ Å©±â·Î Á¶Àý
+        textComponent.fontSize = fontSize;  // ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½Û¾ï¿½ Å©ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         textComponent.color = color;
 
         textComponent.horizontalOverflow = HorizontalWrapMode.Overflow;
-        textComponent.alignment = TextAnchor.MiddleCenter;  // °¡¿îµ¥ Á¤·Ä ¼³Á¤
+        textComponent.alignment = TextAnchor.MiddleCenter;  // ï¿½ï¿½ï¿½îµ¥ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
         return textComponent;
     }
@@ -163,13 +169,13 @@ public class DraggableObject : MonoBehaviour
         GameObject imageObject = new GameObject("ImageObject");
         imageObject.transform.SetParent(parent);
 
-        // Image ÄÄÆ÷³ÍÆ® Ãß°¡
+        // Image ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ß°ï¿½
         UnityEngine.UI.Image background = imageObject.AddComponent<UnityEngine.UI.Image>();
-        background.sprite = backgroundSprite;  // Æ¯Á¤ ½ºÇÁ¶óÀÌÆ® ¼³Á¤
+        background.sprite = backgroundSprite;  // Æ¯ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½
 
-        // ÀÌ¹ÌÁöÀÇ Å©±â¿Í À§Ä¡ ¼³Á¤
+        // ï¿½Ì¹ï¿½ï¿½ï¿½ï¿½ï¿½ Å©ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½
         RectTransform imageRect = imageObject.GetComponent<RectTransform>();
-        imageRect.sizeDelta = new Vector2(1000f, 200f);  // ¿øÇÏ´Â Å©±â·Î Á¶Àý
+        imageRect.sizeDelta = new Vector2(1000f, 200f);  // ï¿½ï¿½ï¿½Ï´ï¿½ Å©ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         imageRect.anchoredPosition = anchoredPosition;
 
         return background;
@@ -188,16 +194,17 @@ public class DraggableObject : MonoBehaviour
 
     IEnumerator SparkleMotion()
     {
+        characterMove.isAction = false;
         audioManager.PlaySound("Wish");
         Vector3 SparkleMotionVector = new Vector3(-15.9f, -15.5f, 10);
 
-        // »õ·Î¿î ¿ÀºêÁ§Æ® ÀÎ½ºÅÏ½ºÈ­
+        // ï¿½ï¿½ï¿½Î¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½Î½ï¿½ï¿½Ï½ï¿½È­
         GameObject newObject = Instantiate(sparkleMotion, SparkleMotionVector, transform.rotation);
 
-        // ÀÏÁ¤ ½Ã°£ ´ë±â
-        yield return new WaitForSeconds(2.0f); // ¿¹½Ã·Î 1ÃÊ ´ë±â
+        // ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ ï¿½ï¿½ï¿½
+        yield return new WaitForSeconds(2.0f); // ï¿½ï¿½ï¿½Ã·ï¿½ 1ï¿½ï¿½ ï¿½ï¿½ï¿½
 
-        // »õ·Î¿î ¿ÀºêÁ§Æ® »èÁ¦
+        // ï¿½ï¿½ï¿½Î¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½
         Destroy(newObject);
         Destroy(this);
     }
