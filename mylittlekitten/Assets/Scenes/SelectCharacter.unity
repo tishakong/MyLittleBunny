@@ -3773,7 +3773,8 @@ MonoBehaviour:
   ADBuySuccess: {fileID: 0}
   ADHarvest: {fileID: 0}
   ADGetBread: {fileID: 0}
-  ADUIButtonClick: {fileID: 8300000, guid: b55ce07540698ca4282af408c0809a39, type: 3}
+  ADUIButtonClick: {fileID: 8300000, guid: 35cf7766e9e2aa542811e896fde57989, type: 3}
+  ADWish: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!1 &1290256011
 GameObject:

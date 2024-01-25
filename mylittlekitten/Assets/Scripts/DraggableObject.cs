@@ -15,10 +15,12 @@ public class DraggableObject : MonoBehaviour
     private InputField inputField;
     private GameObject canvasObject;
     public GameObject sparkleMotion;
+    AudioManager audioManager;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        audioManager = FindObjectOfType<AudioManager>();
         originalLayer = gameObject.layer;
         originalPosition = transform.position;
         stonetop = new Vector2(-15.87f, -18.69f);
@@ -186,6 +188,7 @@ public class DraggableObject : MonoBehaviour
 
     IEnumerator SparkleMotion()
     {
+        audioManager.PlaySound("Wish");
         Vector3 SparkleMotionVector = new Vector3(-15.9f, -15.5f, 10);
 
         // 새로운 오브젝트 인스턴스화

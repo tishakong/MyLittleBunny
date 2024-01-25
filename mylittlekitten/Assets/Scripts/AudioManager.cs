@@ -11,6 +11,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip ADHarvest;
     public AudioClip ADGetBread;
     public AudioClip ADUIButtonClick;
+    public AudioClip ADWish;
     public AudioClip ADOpenBox;
     public AudioClip ADGetTreasure;
     public AudioSource audioSource;
@@ -42,6 +43,8 @@ public class AudioManager : MonoBehaviour
                 audioSource.clip = ADGetBread; break;
             case "UIButtonClick":
                 audioSource.clip = ADUIButtonClick; break;
+            case "Wish":
+                audioSource.clip = ADWish; break;
             case "OpenBox":
                 audioSource.clip = ADOpenBox; break;
             case "GetTreasure":
