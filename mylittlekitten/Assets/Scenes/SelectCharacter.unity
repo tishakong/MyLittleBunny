@@ -599,6 +599,7 @@ GameObject:
   - component: {fileID: 454544263}
   - component: {fileID: 454544262}
   - component: {fileID: 454544266}
+  - component: {fileID: 454544267}
   m_Layer: 0
   m_Name: BrownRabbit
   m_TagString: Untagged
@@ -747,6 +748,30 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1.6}
   m_Direction: 0
+--- !u!114 &454544267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454544261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d3f345beaff2744b6ab28924846752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ADWatering: {fileID: 8300000, guid: b70e124dc13fe4041858ca8e9acd12db, type: 3}
+  ADFishingStart: {fileID: 0}
+  ADFishing: {fileID: 0}
+  ADBuySuccess: {fileID: 0}
+  ADHarvest: {fileID: 0}
+  ADGetBread: {fileID: 0}
+  ADUIButtonClick: {fileID: 0}
+  ADWish: {fileID: 0}
+  ADOpenBox: {fileID: 0}
+  ADGetTreasure: {fileID: 0}
+  ADSelectCharacter: {fileID: 8300000, guid: e292c967ff54f93438034d986e4e487f, type: 3}
+  audioSource: {fileID: 0}
 --- !u!1 &543068364
 GameObject:
   m_ObjectHideFlags: 0
@@ -1517,6 +1542,7 @@ GameObject:
   - component: {fileID: 1028530792}
   - component: {fileID: 1028530795}
   - component: {fileID: 1028530796}
+  - component: {fileID: 1028530797}
   m_Layer: 0
   m_Name: BlackRabbit
   m_TagString: Untagged
@@ -1665,6 +1691,30 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1.6}
   m_Direction: 0
+--- !u!114 &1028530797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028530791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d3f345beaff2744b6ab28924846752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ADWatering: {fileID: 8300000, guid: b70e124dc13fe4041858ca8e9acd12db, type: 3}
+  ADFishingStart: {fileID: 0}
+  ADFishing: {fileID: 0}
+  ADBuySuccess: {fileID: 0}
+  ADHarvest: {fileID: 0}
+  ADGetBread: {fileID: 0}
+  ADUIButtonClick: {fileID: 0}
+  ADWish: {fileID: 0}
+  ADOpenBox: {fileID: 0}
+  ADGetTreasure: {fileID: 0}
+  ADSelectCharacter: {fileID: 8300000, guid: e292c967ff54f93438034d986e4e487f, type: 3}
+  audioSource: {fileID: 0}
 --- !u!1 &1095641069
 GameObject:
   m_ObjectHideFlags: 0
@@ -3775,6 +3825,9 @@ MonoBehaviour:
   ADGetBread: {fileID: 0}
   ADUIButtonClick: {fileID: 8300000, guid: 35cf7766e9e2aa542811e896fde57989, type: 3}
   ADWish: {fileID: 0}
+  ADOpenBox: {fileID: 0}
+  ADGetTreasure: {fileID: 0}
+  ADSelectCharacter: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!1 &1290256011
 GameObject:
@@ -3982,6 +4035,7 @@ GameObject:
   - component: {fileID: 1868596421}
   - component: {fileID: 1868596424}
   - component: {fileID: 1868596425}
+  - component: {fileID: 1868596426}
   m_Layer: 0
   m_Name: WhiteRabbit
   m_TagString: Untagged
@@ -4130,6 +4184,30 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1.6}
   m_Direction: 0
+--- !u!114 &1868596426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868596420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d3f345beaff2744b6ab28924846752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ADWatering: {fileID: 8300000, guid: b70e124dc13fe4041858ca8e9acd12db, type: 3}
+  ADFishingStart: {fileID: 0}
+  ADFishing: {fileID: 0}
+  ADBuySuccess: {fileID: 0}
+  ADHarvest: {fileID: 0}
+  ADGetBread: {fileID: 0}
+  ADUIButtonClick: {fileID: 0}
+  ADWish: {fileID: 0}
+  ADOpenBox: {fileID: 0}
+  ADGetTreasure: {fileID: 0}
+  ADSelectCharacter: {fileID: 8300000, guid: e292c967ff54f93438034d986e4e487f, type: 3}
+  audioSource: {fileID: 0}
 --- !u!1 &1884430834
 GameObject:
   m_ObjectHideFlags: 0
