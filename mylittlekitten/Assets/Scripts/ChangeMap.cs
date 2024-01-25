@@ -6,14 +6,17 @@ using UnityEngine.SceneManagement;
 public class ChangeMap : MonoBehaviour
 {
     GetBread getbread;
+    AudioManager audioManager;
 
     public void Awake() 
     {
         getbread = FindObjectOfType<GetBread>();
+        audioManager = FindObjectOfType<AudioManager>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        audioManager.PlaySound("OpenBox");
         if (other.gameObject.CompareTag("ToInside"))
         {
             if (other.name == "BakeryPoint")

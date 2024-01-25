@@ -152,7 +152,7 @@ public class DraggableObject : MonoBehaviour
         textRect.anchoredPosition = anchoredPosition;
 
         textComponent.text = text;
-        textComponent.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf"); // ��Ʈ ����
+        textComponent.font = Resources.Load<Font>("Fonts/KOTRAHOPE");
         textComponent.fontSize = fontSize;  // ���ϴ� �۾� ũ��� ����
         textComponent.color = color;
 

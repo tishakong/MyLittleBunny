@@ -14,6 +14,8 @@ public class ChangeScene : MonoBehaviour
     }
 
     public void ChangeScenefunc(){
+
+        audioManager.PlaySound("UIButtonClick");
         switch (this.gameObject.name)
         {
             case "Start_button":
@@ -25,7 +27,6 @@ public class ChangeScene : MonoBehaviour
                 break;
         }
 
-        audioManager.PlaySound("UIButtonClick");
 
     }
     

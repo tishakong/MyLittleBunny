@@ -123,7 +123,18 @@ public class GetBread : MonoBehaviour
         if (DataManager.Instance.myCoin < breadcount)
         {
             //돈이 부족한 상태
+            DataManager.Instance.myCoin -= breadcount;
+            breadcount = 0; breadheight = 0;
+            foreach (Transform child in transform)
+            {
+                if (child.name == "BreadMotion")
+                {
+                    Destroy(child.gameObject);
+                }
+            }
             StartCoroutine(BuyFail());
+            audioManager.PlaySound("BuySuccess");
+            print("현재 myCoin" + DataManager.Instance.myCoin);
         }
         else
         {
