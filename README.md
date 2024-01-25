@@ -30,7 +30,8 @@
 - `[빵집] 빵 구매하기`: 판다의 빵집에서 빵을 고르면 토끼의 머리 위로 고른 빵이 하나씩 쌓입니다. 고른 빵들을 판다가 있는 계산대에서 구매할 수 있고, 고른 빵들을 구매완료하기 전에 빵집에서 나갈 수 없습니다.
 - `[가든] 식물 물주기`: 가든에서 식물들에게 물을 줄 수 있습니다. 물을 주면 보상으로 코인이 주어집니다.  
 - `[정산소] 환전하기`: 시바네 상점에서 토끼가 얻은 물고기와 당근을 코인으로 바꿀 수 있습니다. 
-![KakaoTalk_Photo_2024-01-25-19-39-34](https://github.com/tishakong/mylittlekitten/assets/81519167/7524b439-2590-41f6-b4b1-e1d279ab7f36)
+![KakaoTalk_Photo_2024-01-25-20-59-50](https://github.com/tishakong/MyLittleBunny/assets/81519167/04a6d61a-2ed0-4bf2-95d9-ba660f952192)
+
 
 <br/>
 
@@ -45,3 +46,4 @@
 <img width="721" alt="스크린샷 2024-01-25 오후 8 15 37" src="https://github.com/tishakong/mylittlekitten/assets/81519167/22ae3213-339c-478f-be29-a8723a29ca07">
 <img width="734" alt="스크린샷 2024-01-25 오후 8 15 42" src="https://github.com/tishakong/mylittlekitten/assets/81519167/7688d4bb-0145-43b8-a49d-2d0d49e92c0f">
 
+<br/>
