@@ -338,6 +338,7 @@ MonoBehaviour:
   ADHarvest: {fileID: 8300000, guid: 3c2b3244308f04549af38a7c412ba064, type: 3}
   ADGetBread: {fileID: 8300000, guid: 844b6ef7938b6f74d841164272a9859b, type: 3}
   ADUIButtonClick: {fileID: 0}
+  ADWish: {fileID: 8300000, guid: cfce0cea076109f478783201b2a9f57f, type: 3}
   ADOpenBox: {fileID: 8300000, guid: 0df598edac0334f739a4526763a31e91, type: 3}
   ADGetTreasure: {fileID: 8300000, guid: fa6c9ace03acc49d5910047af144134f, type: 3}
   audioSource: {fileID: 0}
