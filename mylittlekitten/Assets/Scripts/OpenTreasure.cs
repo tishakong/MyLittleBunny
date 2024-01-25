@@ -6,8 +6,6 @@ using UnityEngine;
 public class OpenTreasure : MonoBehaviour
 {
     private Vector3 vector;
-
-    //������Ʈ ���� ����
     private CapsuleCollider2D capsuleCollider;
     public LayerMask layerMask;
     public float raycastLength;
@@ -18,6 +16,9 @@ public class OpenTreasure : MonoBehaviour
     AudioManager audioManager;
     public float horizontalsave;
     public float verticalsave;
+
+
+
     void Start()
     {
         capsuleCollider = GetComponent<CapsuleCollider2D>();
@@ -67,14 +68,15 @@ public class OpenTreasure : MonoBehaviour
 
         if (openable && Input.GetKeyDown(KeyCode.Z))
         {
-            //audioManager.PlaySound("Opening");
+            audioManager.PlaySound("OpenBox");
             Destroy(hitObject);
             StartCoroutine(OpeningMotion());
         }
 
         if (getable && Input.GetKeyDown(KeyCode.G))
         {
-            //audioManager.PlaySound("Watering");
+            DataManager.Instance.myCarrot++;
+            audioManager.PlaySound("GetTreasure");
             Destroy(hitObject);
         }
     }

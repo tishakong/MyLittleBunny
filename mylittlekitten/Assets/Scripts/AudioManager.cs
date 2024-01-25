@@ -12,6 +12,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip ADGetBread;
     public AudioClip ADUIButtonClick;
     public AudioClip ADWish;
+    public AudioClip ADOpenBox;
+    public AudioClip ADGetTreasure;
     public AudioSource audioSource;
 
     void Awake()
@@ -43,6 +45,10 @@ public class AudioManager : MonoBehaviour
                 audioSource.clip = ADUIButtonClick; break;
             case "Wish":
                 audioSource.clip = ADWish; break;
+            case "OpenBox":
+                audioSource.clip = ADOpenBox; break;
+            case "GetTreasure":
+                audioSource.clip = ADGetTreasure; break;
         }
         audioSource.Play();
         Destroy(go, audioSource.clip.length);
