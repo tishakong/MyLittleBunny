@@ -47,3 +47,13 @@
 <img width="734" alt="스크린샷 2024-01-25 오후 8 15 42" src="https://github.com/tishakong/mylittlekitten/assets/81519167/7688d4bb-0145-43b8-a49d-2d0d49e92c0f">
 
 <br/>
+
+## B. 구현 영상
+
+https://github.com/tishakong/MyLittleBunny/assets/81519167/bfdedd88-6fd8-462c-8b59-d88ce5c6a8f5
+
+
+https://github.com/tishakong/MyLittleBunny/assets/81519167/de31ae37-7714-450e-8c31-9c2915945673
+
+
+
