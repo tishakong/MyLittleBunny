@@ -280,7 +280,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7770680ddb84cfb46b73d5693ffb84e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeTime: 1
 --- !u!114 &6420220045999437207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -476,6 +475,9 @@ MonoBehaviour:
   ADBuySuccess: {fileID: 8300000, guid: 0f803d5aa0e4d624a8f6baef905f4a8a, type: 3}
   ADHarvest: {fileID: 8300000, guid: 3c2b3244308f04549af38a7c412ba064, type: 3}
   ADGetBread: {fileID: 8300000, guid: 844b6ef7938b6f74d841164272a9859b, type: 3}
+  ADUIButtonClick: {fileID: 0}
+  ADOpenBox: {fileID: 8300000, guid: 0df598edac0334f739a4526763a31e91, type: 3}
+  ADGetTreasure: {fileID: 8300000, guid: fa6c9ace03acc49d5910047af144134f, type: 3}
   audioSource: {fileID: 0}
 --- !u!114 &-4522570670185136310
 MonoBehaviour:
@@ -492,7 +494,10 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 2048
-  raycastLength: 2
+  raycastLength: 10
   openable: 0
+  getable: 0
   hitObject: {fileID: 0}
-  openingMotion: {fileID: 2055102311959635369, guid: 17b0c1ef334d17e4bbb74c4778001705, type: 3}
+  OpenBoxMotion: {fileID: 2055102311959635369, guid: 17b0c1ef334d17e4bbb74c4778001705, type: 3}
+  horizontalsave: 0
+  verticalsave: 0

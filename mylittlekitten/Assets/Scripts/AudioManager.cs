@@ -10,6 +10,12 @@ public class AudioManager : MonoBehaviour
     public AudioClip ADBuySuccess;
     public AudioClip ADHarvest;
     public AudioClip ADGetBread;
+<<<<<<< Updated upstream
+=======
+    public AudioClip ADUIButtonClick;
+    public AudioClip ADOpenBox;
+    public AudioClip ADGetTreasure;
+>>>>>>> Stashed changes
     public AudioSource audioSource;
 
     void Awake()
@@ -37,6 +43,12 @@ public class AudioManager : MonoBehaviour
                 audioSource.clip = ADHarvest; break;
             case "GetBread":
                 audioSource.clip = ADGetBread; break;
+            case "UIButtonClick":
+                audioSource.clip = ADUIButtonClick; break;
+            case "OpenBox":
+                audioSource.clip = ADOpenBox; break;
+            case "GetTreasure":
+                audioSource.clip = ADGetTreasure; break;
         }
         audioSource.Play();
         Destroy(go, audioSource.clip.length);
