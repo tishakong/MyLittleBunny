@@ -21,7 +21,7 @@ public class CharacterMove : MonoBehaviour
     public LayerMask layerMask;
     public float raycastLength;
 
-
+    public bool isAction;
     public bool fishing;
 
     void Start()
@@ -29,6 +29,7 @@ public class CharacterMove : MonoBehaviour
         capsuleCollider = GetComponent<CapsuleCollider2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        isAction=false;
     }
 
     private void Update()
@@ -66,7 +67,7 @@ public class CharacterMove : MonoBehaviour
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
 
-        if ((horizontalInput != 0 || verticalInput != 0))
+        if (((horizontalInput != 0 || verticalInput != 0)) && !isAction)
         {
             if (Input.GetKey(KeyCode.LeftShift))
             {
