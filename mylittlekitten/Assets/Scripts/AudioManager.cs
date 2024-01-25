@@ -14,6 +14,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip ADWish;
     public AudioClip ADOpenBox;
     public AudioClip ADGetTreasure;
+    public AudioClip ADSelectCharacter;
     public AudioSource audioSource;
 
     void Awake()
@@ -49,6 +50,8 @@ public class AudioManager : MonoBehaviour
                 audioSource.clip = ADOpenBox; break;
             case "GetTreasure":
                 audioSource.clip = ADGetTreasure; break;
+            case "SelectCharacter":
+                audioSource.clip = ADSelectCharacter; break;
         }
         audioSource.Play();
         Destroy(go, audioSource.clip.length);

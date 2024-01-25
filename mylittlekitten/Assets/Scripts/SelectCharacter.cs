@@ -11,12 +11,14 @@ public class SelectCharacter : MonoBehaviour
     SpriteRenderer spriteRenderer;
     public SelectCharacter[] chars;
     public Button Select_button;
+    AudioManager audioManager;
 
 
     void Start()
     {
         animator= GetComponent<Animator>();
         spriteRenderer= GetComponent<SpriteRenderer>();
+        audioManager = FindObjectOfType<AudioManager>();
         OnDeSelect();
     }
 
@@ -46,6 +48,7 @@ public class SelectCharacter : MonoBehaviour
         animator.SetBool("Walking", true);
         spriteRenderer.transform.localScale = new Vector3(2.5f,2.5f,1f);
         Select_button.gameObject.SetActive(true);
+        audioManager.PlaySound("SelectCharacter");
     }
 
 } 
