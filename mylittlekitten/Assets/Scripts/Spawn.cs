@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using static UnityEditor.Experimental.GraphView.GraphView;
@@ -8,14 +9,23 @@ public class Spawn : MonoBehaviour
 {
     public GameObject[] charPrefabs;
     public GameObject player;
+    public string previousScene;
+    ExitManager exitManager;
 
     void Start()
     {
+        exitManager = FindObjectOfType<ExitManager>();
         StateUIManager.instance.gameObject.SetActive(true);
         player = Instantiate(charPrefabs[(int)DataManager.Instance.currentCharacter]);
-        string previousScene = PlayerPrefs.GetString("PreviousScene");
+        previousScene = PlayerPrefs.GetString("PreviousScene");
         print(previousScene);
         player.transform.position = new Vector3 (transform.position.x, transform.position.y,0);
+
+        if(exitManager.isRestart==true)
+        {
+            player.transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+            exitManager.isRestart = false;
+        }
 
         if (SceneManager.GetActiveScene().name == "MainMap")
         {

@@ -15,6 +15,7 @@ public class CharacterMove : MonoBehaviour
     //�ȴ� �ִϸ��̼� ����
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+    AudioManager audioManager;
 
     //������Ʈ ���� ����
     private CapsuleCollider2D capsuleCollider;
@@ -26,6 +27,7 @@ public class CharacterMove : MonoBehaviour
 
     void Start()
     {
+        audioManager = GetComponent<AudioManager>();
         capsuleCollider = GetComponent<CapsuleCollider2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -114,8 +116,6 @@ public class CharacterMove : MonoBehaviour
             else
             {
                 animator.SetBool("Walking", true);
-
-
                 if (Movevector.x != 0)
                 {
                     transform.Translate(Movevector.x * (speed + applyRunSpeed), 0, 0);

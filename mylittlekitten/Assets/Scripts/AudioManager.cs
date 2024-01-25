@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -17,6 +18,19 @@ public class AudioManager : MonoBehaviour
     public AudioClip ADSelectCharacter;
     public AudioSource audioSource;
 
+    public AudioClip WalkingOnGrass;
+    public AudioClip WalkingOnWood;
+
+    public void PlayWalkingSound()
+    {
+        if (SceneManager.GetActiveScene().name == "MainMap")
+        {
+            audioSource.PlayOneShot(WalkingOnGrass);
+        } else
+        {
+            audioSource.PlayOneShot(WalkingOnWood);
+        }
+    }
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
@@ -52,6 +66,8 @@ public class AudioManager : MonoBehaviour
                 audioSource.clip = ADGetTreasure; break;
             case "SelectCharacter":
                 audioSource.clip = ADSelectCharacter; break;
+            case "Harvesting":
+                audioSource.clip = WalkingOnGrass; break;
         }
         audioSource.Play();
         Destroy(go, audioSource.clip.length);

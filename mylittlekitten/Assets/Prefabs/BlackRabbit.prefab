@@ -134,7 +134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.04
   Movevector: {x: 0, y: 0, z: 0}
-  runSpeed: 0.01
+  runSpeed: 0.1
   layerMask:
     serializedVersion: 2
     m_Bits: 1073749888
@@ -344,6 +344,8 @@ MonoBehaviour:
   ADGetTreasure: {fileID: 8300000, guid: fa6c9ace03acc49d5910047af144134f, type: 3}
   ADSelectCharacter: {fileID: 0}
   audioSource: {fileID: 0}
+  WalkingOnGrass: {fileID: 8300000, guid: 551c655b69bdccf40a7b10387b2e3dab, type: 3}
+  WalkingOnWood: {fileID: 8300000, guid: 8e91652d73aebc2499db6c95d7807043, type: 3}
 --- !u!82 &8353973579083266197
 AudioSource:
   m_ObjectHideFlags: 0
@@ -497,7 +499,7 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 2048
-  raycastLength: 10
+  raycastLength: 2
   openable: 0
   getable: 0
   hitObject: {fileID: 0}
@@ -522,5 +524,6 @@ MonoBehaviour:
   raycastLength: 2
   readable: 0
   hitObject: {fileID: 0}
+  canvasObject: {fileID: 0}
   backgroundimage: {fileID: -4827201375843143100, guid: 1c9bc0d104c01934da10d4333b9dc48b, type: 3}
   InfoText: 

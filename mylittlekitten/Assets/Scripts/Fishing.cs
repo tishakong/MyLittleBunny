@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEditor.Tilemaps;
 using UnityEngine;
 using TMPro;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class  Fishing : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class  Fishing : MonoBehaviour
     public bool fishingstart;
     public GameObject hitObject;
     public GameObject fishingMotion;
-    public TextMeshProUGUI progressText;
+    public Text progressText;
     public int clickCount;
     AudioManager audioManager;
 
@@ -33,7 +34,7 @@ public class  Fishing : MonoBehaviour
 
         if (fishingProgressObject != null)
         {
-            progressText = fishingProgressObject.GetComponent<TextMeshProUGUI>();
+            progressText = fishingProgressObject.GetComponent<Text>();
             progressText.gameObject.SetActive(false);
         }
     }
@@ -65,6 +66,7 @@ public class  Fishing : MonoBehaviour
             }
             else
             {
+                progressText.text = "Start Fishing!";
                 progressText.gameObject.SetActive(false);
                 fishingstart = false;
             }
@@ -102,6 +104,7 @@ public class  Fishing : MonoBehaviour
 
             if (clickCount==20)
             {
+                audioManager.PlaySound("FishingStart");
                 DataManager.Instance.myFish++;
                 progressText.text = "0%";
                 fishingstart=false;

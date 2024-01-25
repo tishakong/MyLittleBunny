@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEditor.Tilemaps;
 using UnityEngine;
 using TMPro;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class  HarvestCarrot : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class  HarvestCarrot : MonoBehaviour
     public bool harvestStart;
     public GameObject hitObject;
     public GameObject harvestMotion;
-    public TextMeshProUGUI progressText;
+    public Text progressText;
     public int clickCount;
     AudioManager audioManager;
 
@@ -33,7 +34,7 @@ public class  HarvestCarrot : MonoBehaviour
 
         if (harvestProgressObject != null)
         {
-            progressText = harvestProgressObject.GetComponent<TextMeshProUGUI>();
+            progressText = harvestProgressObject.GetComponent<Text>();
             progressText.gameObject.SetActive(false);
         }
     }
@@ -76,6 +77,7 @@ public class  HarvestCarrot : MonoBehaviour
         {
             clickCount = 0;
             harvestStart = true;
+            audioManager.PlaySound("Harvesting");
         }
 
         if (harvestStart)
@@ -109,6 +111,13 @@ public class  HarvestCarrot : MonoBehaviour
                 print("myCarrot : " + DataManager.Instance.myCarrot);
 
                 harvestable = false;
+            }
+        }
+        else
+        {
+            if (GameObject.Find("ADHarvesting"))
+            {
+                Destroy(GameObject.Find("ADHarvesting"));
             }
         }
     }

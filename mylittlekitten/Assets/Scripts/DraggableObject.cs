@@ -146,7 +146,7 @@ public class DraggableObject : MonoBehaviour
         textRect.anchoredPosition = anchoredPosition;
 
         textComponent.text = text;
-        textComponent.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf"); // 폰트 수정
+        textComponent.font = Resources.Load<Font>("Fonts/KOTRAHOPE");
         textComponent.fontSize = fontSize;  // 원하는 글씨 크기로 조절
         textComponent.color = color;
 
