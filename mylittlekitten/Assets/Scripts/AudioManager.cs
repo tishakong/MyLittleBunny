@@ -11,6 +11,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip ADHarvest;
     public AudioClip ADGetBread;
     public AudioClip ADUIButtonClick;
+    public AudioClip ADWish;
     public AudioSource audioSource;
 
     void Awake()
@@ -40,6 +41,8 @@ public class AudioManager : MonoBehaviour
                 audioSource.clip = ADGetBread; break;
             case "UIButtonClick":
                 audioSource.clip = ADUIButtonClick; break;
+            case "Wish":
+                audioSource.clip = ADWish; break;
         }
         audioSource.Play();
         Destroy(go, audioSource.clip.length);
