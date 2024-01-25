@@ -10,12 +10,9 @@ public class AudioManager : MonoBehaviour
     public AudioClip ADBuySuccess;
     public AudioClip ADHarvest;
     public AudioClip ADGetBread;
-<<<<<<< Updated upstream
-=======
     public AudioClip ADUIButtonClick;
     public AudioClip ADOpenBox;
     public AudioClip ADGetTreasure;
->>>>>>> Stashed changes
     public AudioSource audioSource;
 
     void Awake()
